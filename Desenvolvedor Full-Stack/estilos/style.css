@@ -1,0 +1,19 @@
+/* Se quisermos que um estilo seja aplicado à página inteira, podemos usar o bodyseletor. */
+
+body {
+ background-color: cornSilk;
+}
+
+/* Podemos estilizar quantos elementos quisermos, desde que adicionemos um espaço 
+entre as diferentes regras. */
+
+h1 {
+ font-family: Helvetica;
+ color: darkGray;
+}
+
+p {
+ color: gray;
+ font-weight: bold;
+ font-family: cursive;
+}
