@@ -1,0 +1,31 @@
+h1 {
+ font: "Arial";
+ color: green;
+}
+
+h2 {
+ font: "Arial";
+ color: blue;
+}
+
+p {
+ font: "Arial";
+ font-weight: normal;
+}
+
+/* Se quisermos selecionar um ou mais elementos, podemos definir um classatributo para os
+elementos exatos que queremos alterar. Na folha de estilo, podemos definir uma nova regra 
+de classe com um "." seguido do nome da classe. Como aqui com .gray-element. */
+
+.gray-element{
+    background-color: lightgrey;
+}
+
+/* Agora que incluímos o idno elemento HTML, estamos prontos para usar o seletor id para 
+nossos estilos. Para selecionar o elemento pelo seu id, digitamos #seguido do nome do 
+id, como capital-letteraqui. IDs nos ajudarão com JavaScript e não devemos usá-los em 
+excesso para estilização. No entanto, podemos aplicar estilos normalmente com o idseletor.*/
+
+#capital-letter {
+    color: blue;
+}
