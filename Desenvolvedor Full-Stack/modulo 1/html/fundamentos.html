@@ -1,0 +1,72 @@
+<!-- Elemento de Divisão de Conteúdo — ou, em outras palavras, o div : -->
+
+<div></div>
+
+<!-- podemos criar um dive inserir um título nele, e um parágrafo nele,
+e agora esses dois elementos serão agrupados: -->
+
+<div>
+  <h1>I am a heading</h1>
+  <p>I am a paragraph</p>
+</div>
+
+<!-- Esteja ciente de que pode haver elementos melhores para usar ao agrupá-los.
+Você pode escolher um sectionelemento, por exemplo: -->
+
+<section>
+  <h1>I am a heading</h1>
+  <p>I am a paragraph</p>
+</section>
+
+
+
+
+<!-- ID's e class -->
+
+<!-- O idatributo adiciona um identificador único a um elemento HTML. Neste exemplo,
+há um h1elemento com um idof title: -->
+
+<h1 id="title">Movie Review Page</h1>
+
+<!-- Ao contrário do idatributo, o classvalor do atributo não precisa ser único e pode conter espaços.
+Aqui está um exemplo de aplicação de uma classe chamada boxa um divelemento: -->
+
+<div class="box"></div>
+
+
+
+<!-- ENTIDADES -->
+
+<!-- Uma entidade HTML, ou referência de caractere, é um conjunto de caracteres usado para
+representar um caractere reservado em HTML. Neste exemplo, há um elemento de parágrafo
+com um elemento de imagem aninhado dentro: -->
+
+<p>This is an <img /> element</p>
+
+<!-- O texto na tela deveria dizer This is an <img/> element. No entanto, o texto atual diz:
+This is an element.Isso acontece porque, quando o analisador HTML vê o <símbolo de menor que 
+( ) seguido por um nome de tag HTML, ele o interpreta como um elemento HTML.
+Para corrigir esse problema, você pode usar entidades HTML. Aqui está um exemplo atualizado 
+usando as entidades HTML corretas para os símbolos "menor que" e "maior que" ( ). -->
+
+<p>This is an &lt;img /&gt; element</p>
+
+<!-- Outro tipo de referência de caractere seria a referência numérica decimal.
+Aqui está um exemplo de uso da referência numérica decimal para o símbolo de menor que: -->
+
+&#60;
+
+<!-- Esta referência de caractere começa com um sinal de "e" comercial e um símbolo de hash ( #),
+seguidos por um ou mais dígitos decimais, seguidos por um ponto e vírgula. -->
+<!-- O último tipo de referência de caractere seria a referência numérica hexadecimal.
+Aqui está um exemplo de uso da referência numérica hexadecimal para o símbolo de menor que: -->
+
+&#x3C;
+
+<!-- Esta referência de caractere começa com um sinal de "e" comercial, um símbolo de cerquilha
+e a letra x. Em seguida, é seguida por um ou mais dígitos hexadecimais ASCII e termina com um ponto e vírgula. -->
+
+
+
+
+<!-- SCRIPT -->
