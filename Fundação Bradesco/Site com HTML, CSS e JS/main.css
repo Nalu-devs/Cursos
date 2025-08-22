@@ -1,0 +1,58 @@
+*{
+    /*O seletor * é universal e se aplica a todos os elementos da página (exceto quando um seletor de elemento mais específico o substitui).*/
+    color: var(--footColor);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-family: monospace;
+    background: var(--bg);
+}
+
+ul {
+    font-family: helvética;
+}
+
+li {
+    list-style: circle;
+}
+
+.list {
+    list-style: square;
+}
+
+:root {
+    --green: #00ff00;
+    --white: #fff;
+    --black: #000;
+}
+
+.light-theme{
+    --bg: var(--green);
+    --footColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+}
+
+.dark-theme{
+    --bg: var(--black);
+    --footColor: var(--green);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+}
+
+.btn{
+    color: var(--btnFontColor);
+    background-color: var(--bntBg);
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+}
+
+.btn:focus{
+    outline-style: none;
+}
