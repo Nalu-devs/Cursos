@@ -1,0 +1,49 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Build an Event Flyer Page</title>
+  <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <img src="https://cdn.freecodecamp.org/curriculum/labs/event.jpg">
+    <h1>Festa junina</h1>
+  </header>
+  <hr>
+  <main>
+    <section>
+      <h2>Itens 1</h2>
+    </section>
+    <section>
+      <h2>Itens 2</h2>
+    </section>
+  </main>
+</body>
+
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+body {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+  width: 80vw;
+  min-height: calc(100vh - 100px);
+}
+  
+hr, section {
+  width: 70%;
+}
+
+
+** end of styles.css **
+
