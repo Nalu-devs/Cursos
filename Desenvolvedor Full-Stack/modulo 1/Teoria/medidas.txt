@@ -1,0 +1,43 @@
+Unidades Absolutas: 
+
+px(Pixels): Esta unidade absoluta é uma unidade de medida de tamanho fixo em CSS. É a unidade 
+absoluta mais comum e fornece controle preciso sobre as dimensões. 1px É sempre igual a 1/96 de 
+polegada.
+
+in(Polegada): Esta unidade absoluta é igual a 96px.
+
+cm(Centímetros): Esta unidade absoluta é igual a 25, 2/64 de uma polegada.
+
+mm(Milímetros): Esta unidade absoluta é igual a 1/10 de um centímetro.
+
+q(Quarto de Milímetro): Esta unidade absoluta é igual a 1/40 de um centímetro.
+
+pc(Picas): Esta unidade absoluta é igual a 1/6 de polegada.
+
+pt(Pontos): Esta unidade absoluta é igual a 1/72 de polegada.
+
+
+
+Unidades relativas:
+
+Porcentagens: essas unidades relativas permitem definir tamanhos, dimensões e outras 
+propriedades como uma proporção do elemento pai. Por exemplo, se você definir 
+width: 50%;um elemento, ele ocupará metade da largura do seu contêiner pai.
+
+emUnidade: Essas unidades são relativas ao tamanho da fonte do elemento. Se você 
+estiver usando emspara a font-sizepropriedade, o tamanho do texto será relativo ao 
+tamanho da fonte do elemento pai.
+
+remUnidade: Essas unidades são relativas ao tamanho da fonte do elemento raiz, que é o htmlelemento.
+
+vhUnidade: vhrepresenta "viewport height"e 1vhé igual a 1% da altura da janela de visualização.
+
+vwUnidade: vwrepresenta "viewport width"e 1vwé igual a 1% da largura da janela
+
+
+
+calcFunção
+calc()Função: Com a calc()função, você pode realizar cálculos diretamente em suas folhas de 
+estilo para determinar valores de propriedade dinamicamente. Isso significa que você pode criar 
+interfaces de usuário flexíveis e responsivas calculando dimensões com base no tamanho da janela 
+de visualização ou em outros elementos.
