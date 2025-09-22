@@ -1,0 +1,48 @@
+Com a calc()função, você pode realizar cálculos diretamente em suas folhas de estilo para 
+determinar valores de propriedades dinamicamente. Isso significa que você pode criar interfaces 
+de usuário flexíveis e responsivas calculando dimensões com base no tamanho da janela de 
+visualização ou em outros elementos.
+
+É assim que você pode chamar a calc()função. Você escreve o nome calc, seguido de parênteses, 
+e dentro dos parênteses, você escreve a expressão:
+calc(expression)
+A expressão é avaliada para calcular o resultado final. "Avaliada" significa apenas que os valores 
+e operadores são convertidos em um único valor em segundo plano. O resultado é atribuído à 
+propriedade CSS onde o cálculo está sendo feito.
+Você pode realizar cálculos com valores que representam comprimento, ângulo, tempo, porcentagens, 
+números e cores. Você também pode combinar diferentes unidades, como pixels, porcentagens e ems.
+
+Com números, todos os valores na expressão, também chamados de operandos, devem ter suas unidades 
+orrespondentes, como px, eme porcentagem ( %). Dependendo do operador, operandos diferentes podem 
+ter unidades diferentes.
+Você pode usar os operadores de adição ( +), subtração ( -), multiplicação ( *) e divisão ( /) na 
+expressão.
+Se houver vários operandos e operadores, calc()seguirá a regra padrão de precedência de operadores.
+Você também pode adicionar parênteses para estabelecer a ordem das operações, se necessário.
+
+div {
+  color: white;
+  background-color: #1b1b32;
+  width: calc(50% - 20px);
+}
+
+A novidade aqui é que a largura é calculada dinamicamente. Observe como estamos chamando a calc() 
+função e passando uma expressão como argumento. A expressão tem dois operandos com unidades 
+diferentes e um operador, o operador de subtração.
+Porcentagem é uma unidade relativa. O valor ( 50%) será determinado pela largura do contêiner pai. 
+Em seguida, 20pxé subtraído do valor. O resultado desta expressão determinará a largura do contêiner 
+pai div.
+A largura do divé aproximadamente metade da largura total do seu contêiner e, se você redimensionar 
+o contêiner pai, a largura será recalculada automaticamente.
+Essa é a principal vantagem de usar calc(). Você pode determinar o valor de uma propriedade CSS 
+dinamicamente com base em diferentes aspectos do aplicativo ou da janela de visualização
+
+Vamos abordar algumas de suas melhores práticas.
+Primeiro, você deve cercar os operadores de adição ( +) e subtração ( -) com espaços em branco.
+
+Além disso, se você usar o valor zero para representar o comprimento na expressão passada para a 
+calc() função, deverá incluir as unidades.
+
+Você também deve saber que, atualmente, ao usar os operadores de multiplicação ou divisão, um dos 
+operandos precisa ser sem unidade. Para o operador de divisão, especificamente, o operando da direita
+precisa ser sem unidade.
