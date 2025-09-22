@@ -41,3 +41,14 @@ calc()Função: Com a calc()função, você pode realizar cálculos diretamente 
 estilo para determinar valores de propriedade dinamicamente. Isso significa que você pode criar 
 interfaces de usuário flexíveis e responsivas calculando dimensões com base no tamanho da janela 
 de visualização ou em outros elementos.
+
+
+Para calcular a altura de uma vh por px fazemos o seguinte:
+1- Descobrimos o valor da altura em px
+2- Multiplicamos pelo valor da vh que temos
+vh = (altura em px / altura total da viewport em px) * 100
+
+EXEMPLO: Se a altura da janela de visualização for 800px, qual 50vh seria?
+
+800px/100=8px
+8px*50vh=400px
