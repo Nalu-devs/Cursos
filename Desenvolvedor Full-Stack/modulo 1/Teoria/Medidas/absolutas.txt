@@ -1,0 +1,24 @@
+Unidades de comprimento absoluto têm comprimento fixo e não são relativas a nada.
+
+A unidade absoluta mais comum é o pixel ( px). Pixels são uma unidade de medida de tamanho
+fixo em CSS, proporcionando controle preciso sobre as dimensões. Isso significa que 1px é 
+sempre igual a 1/96 de polegada.
+
+Temos uma caixa vermelha com largura e altura definidas como 100px. As dimensões desta caixa 
+permanecerão as mesmas, independentemente das alterações relativas ao tamanho da tela.
+
+Portanto, se você estiver usando um dispositivo com tela pequena, a área de trabalho ainda será 
+100px larga. Se você estiver usando uma tela grande de desktop, a área de trabalho ainda será 100px
+larga.
+
+Você usará pixels quando precisar de controle preciso sobre as dimensões, o espaçamento e o layout 
+dos elementos. Às vezes, você pode usar pixels para margens, preenchimento e bordas.
+
+Outros tipos de unidades absolutas incluem o seguinte:
+A inunidade (polegadas), que é igual a 96px
+A cmunidade (centímetros), que é igual a 25,2/64 de uma polegada
+A mmunidade (milímetros), que é igual a 1/10 de um centímetro
+A qunidade (quartos de milímetro), que é igual a 1/40 de um centímetro
+A pcunidade (picas), que é igual a 1/6 de polegada
+A ptunidade (pontos), que é igual a 1/72 de polegada
+A maioria dessas unidades será usada para impressão e não para telas.
