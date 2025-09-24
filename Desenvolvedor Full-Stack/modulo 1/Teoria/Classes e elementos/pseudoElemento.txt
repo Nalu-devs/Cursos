@@ -1,0 +1,105 @@
+Um dos aspectos mais interessantes do CSS é o uso de pseudoelementos. Nesse contexto, "pseudo" significa "não real", portanto, 
+pseudoelementos são elementos virtuais ou sintéticos que não correspondem diretamente a nenhum elemento HTML real. Eles permitem 
+estilizar partes específicas de um elemento ou inserir conteúdo sem adicionar HTML extra.
+
+Para aplicar um pseudoelemento, anexe-o ao seletor do elemento original usando dois pontos duplos (::). Observe que o seletor pode 
+ser de qualquer tipo, como um seletor de classe ou ID. Veja como é a sintaxe básica dos pseudoelementos:
+selector::pseudo-element {
+  property: value;
+}
+
+Pseudoelementos permitem estilizar partes específicas do conteúdo de um elemento ou inserir conteúdo antes ou depois dele, mas não
+podem existir independentemente. O elemento ao qual um pseudoelemento está anexado é chamado de elemento de origem.
+
+Vamos começar analisando exemplos dos pseudoelementos ::before e . Como os nomes sugerem, permite inserir conteúdo imediatamente 
+antes do conteúdo do elemento, enquanto permite inserir conteúdo depois dele.
+<button class="cta-button">Learn More</button>
+No CSS, usaremos posicionamento absoluto e o ::beforepseudoelemento para adicionar uma estrela antes do Learn Moretexto do botão.
+.cta-button {
+  background-color: lightseagreen;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  position: relative;
+}
+
+.cta-button::before {
+  content: "⭐";
+  position: absolute;
+  left: 3px;
+  top: 8px;
+  font-size: 0.75rem;
+}
+A content propriedade é usada para representar o conteúdo que você deseja adicionar antes do texto do botão. Neste exemplo, 
+estamos adicionando uma estrela. Você notará que pode não apenas inserir conteúdo, mas também estilizá-lo.
+
+Aqui está um exemplo do ::afterpseudoelemento com o mesmo botão:
+.cta-button {
+  background-color: orange;
+  border: none;
+  padding: 10px 30px;
+  cursor: pointer;
+  position: relative;
+}
+
+.cta-button::after {
+  content: '➡️';
+  position: absolute;
+  right: 5px;
+  bottom: 6px;
+  font-size: 1.125rem;
+  transition: transform 0.3s ease;
+}
+
+Você também pode anexar uma pseudoclasse ao conteúdo inserido em outro conteúdo com os pseudoelementos ::beforee ::after. 
+Por exemplo, um estado de foco para o conteúdo. Veja um exemplo:
+.cta-button {
+  background-color: orange;
+  border: none;
+  padding: 10px 30px;
+  cursor: pointer;
+  position: relative;
+}
+
+.cta-button::after {
+  content: "➡️";
+  position: absolute;
+  right: 5px;
+  bottom: 6px;
+  font-size: 1.125rem;
+  transition: transform 0.3s ease;
+}
+
+.cta-button:hover::after {
+  transform: translateX(2px);
+}
+
+No próximo exemplo, veremos o ::first-letter pseudoelemento. O ::first-letterpseudoelemento tem como alvo a primeira 
+letra do conteúdo de um elemento, permitindo que você o estilize. Aqui está um exemplo de texto de parágrafo:
+<p>freeCodeCamp lets you learn to code without having to pay.</p>
+p::first-letter {
+  font-size: 4rem;
+}
+
+No último exemplo, veremos o ::markerpseudoelemento, que permite selecionar o marcador, marcador ou numeração dos itens da lista para 
+estilização. O ::markerpseudoelemento oferece uma maneira de aprimorar a identidade da marca do seu site, personalizando os marcadores 
+de lista para combinar com o seu esquema de cores.
+<ul>
+  <li>Unordered list item 1</li>
+  <li>Unordered list item 2</li>
+  <li>Unordered list item 3</li>
+  <li>Unordered list item 4</li>
+</ul>
+
+<ol>
+  <li>Ordered list item 1</li>
+  <li>Ordered list item 2</li>
+  <li>Ordered list item 3</li>
+  <li>Ordered list item 4</li>
+</ol>
+li::marker {
+  color: crimson;
+  font-size: 1.5em;
+  font-weight: bold;
+}
