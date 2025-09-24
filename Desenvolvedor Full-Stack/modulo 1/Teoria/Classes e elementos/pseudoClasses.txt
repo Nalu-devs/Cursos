@@ -1,0 +1,68 @@
+Pseudoclasses são palavras-chave CSS especiais que permitem selecionar um elemento com base em seu 
+estado ou posição específica. O estado ou posição do elemento pode incluir:
+1 - Quando está ativo.
+2 - Quando o mouse passa sobre ele.
+3 - Quando é o primeiro filho de um dos pais.
+4 - Quando é o último filho de um dos pais.
+5 - Quando um link foi visitado.
+6 - Quando está desabilitado.
+
+Para usar uma pseudoclasse, adicione-a ao seletor usando dois pontos (:) seguidos do nome 
+da pseudoclasse:
+selector:pseudo-class {
+  /* CSS properties */
+}
+
+A :active pseudoclasse permite selecionar o estado ativo de um elemento, como clicar em um botão:
+button:active {
+  background: greenyellow;
+}
+
+A :hover pseudoclasse define o estado de foco de um elemento. Um exemplo seria passar o mouse
+sobre um botão ou link:
+a:hover {
+  text-decoration: none;
+  background: crimson;
+}
+
+A :first-child pseudoclasse seleciona um elemento que é o primeiro filho do seu elemento pai. 
+Aqui está um exemplo em HTML mostrando um divelemento contendo vários elementos de parágrafo:
+<div class="container">
+  <p>first child</p>
+  <p>second child</p>
+  <p>third child</p>
+  <p>last child</p>
+</div>
+.container p:first-child {
+  background: lightcoral;
+  padding: 0.4rem;
+}
+O primeiro elemento do parágrafo div receberá a lightcoral cor de fundo padding em 0.4rem todos 
+os quatro lados.
+
+A :last-child pseudoclasse tem como alvo o último elemento que é filho do seu pai. 
+Aqui está um exemplo de como atingir o último elemento de parágrafo no divelemento contêiner:
+.container p:last-child {
+  background: lightcoral;
+  padding: 0.4rem;
+}
+
+A :visited pseudoclasse permite estilizar um link que o usuário já visitou:
+a:visited {
+  color: purple;
+}
+
+A :disabled pseudoclasse permite estilizar um elemento interativo no modo desabilitado:
+button:disabled {
+  background-color: lightgray;  
+}
+
+Além das pseudoclasses já mencionadas, existem outras como:
+:focus
+:first-of-type
+:last-of-type
+:nth-of-type
+:modal
+:enabled
+:checked
+:required, e muito mais.
