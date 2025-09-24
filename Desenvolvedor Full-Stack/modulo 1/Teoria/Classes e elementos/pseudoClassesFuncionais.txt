@@ -70,3 +70,46 @@ posteriormente. Aqui está o HTML para isso:
 <h1>Page Title</h1>
 <h2>Subtitle</h2>
 <h3>A point</h3>
+:where(h1, h2, h3) {
+  margin: 0;
+  padding: 0;
+}
+
+Estilizar um elemento pai com base nos estados de seus filhos era desafiador até a :has() introdução da pseudoclasse. 
+Ela permite aplicar estilos a um elemento pai com base na presença ou no estado de seus elementos filhos.
+Por exemplo, o CSS abaixo só será aplicado a qualquer article elemento que tenha um h2:
+article:has(h2) {
+  border: 2px solid hotpink;
+}
+<article>
+  <h2>Subheading</h2>
+  <p>Lorem ipsum dolor sit amet.</p>
+</article>
+
+<article>
+  <h3>A point</h3>
+  <p>Lorem ipsum dolor sit amet.</p>
+  <p>Lorem ipsum dolor sit amet.</p>
+</article>
+
+A :not()pseudoclasse é ideal para situações em que você deseja aplicar estilos a um grupo de elementos, excluindo uma ou mais exceções 
+específicas. No CSS abaixo, qualquer botão que não seja primário terá um fundo cinza:
+button {
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  color: white;
+}
+
+button.primary {
+  background-color: deepskyblue;
+}
+
+button:not(.primary) {
+  background-color: grey;
+}
+<button class="primary">Primary Button</button>
+<button class="secondary">Secondary Button</button>
+<button class="danger">Another Secondary Button</button>
