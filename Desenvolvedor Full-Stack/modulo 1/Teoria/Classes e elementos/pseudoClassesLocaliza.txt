@@ -1,0 +1,43 @@
+Pseudoclasses de localização são usadas para estilizar links e elementos que são alvos no documento 
+atual. Elas oferecem uma maneira de aplicar estilos com base no fato de um link ser visitado ou 
+se um elemento está em foco no momento.
+
+A :link pseudoclasse permite segmentar todos os links não visitados em uma página da web. 
+Você pode usá-la para estilizar links de forma diferente antes que o usuário clique neles. 
+Por exemplo, você pode querer deixar todos os links não visitados em azul ou na cor primária 
+do seu site:
+a:link {
+  color: magenta;
+}
+
+A :any-link pseudoclasse é uma combinação das pseudoclasses :linke . 
+Portanto, ela corresponde a qualquer elemento âncora com um atributo, independentemente de ser 
+visitado ou não.:visited href
+a:any-link {
+  color: crimson;
+}
+
+A :target pseudoclasse seleciona um elemento que corresponde ao identificador do fragmento de 
+URL atual, por exemplo, #section1. É muito útil para páginas com navegação in-page.
+<nav id="table-of-contents">
+  <ul>
+    <li><a href="#section1">Introduction</a></li>
+    <li><a href="#section2">Features</a></li>
+  </ul>
+</nav>
+
+<section id="section1">
+  <h2>Introduction</h2>
+  <p>This is the introduction section.</p>
+</section>
+
+<section id="section2">
+  <h2>Features</h2>
+  <p>This section describes the features.</p>
+</section>
+section:target {
+  background-color: green;
+  border: 2px solid green;
+  padding: 10px;
+}
+
