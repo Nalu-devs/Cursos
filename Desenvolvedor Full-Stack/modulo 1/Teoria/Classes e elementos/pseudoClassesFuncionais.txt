@@ -92,7 +92,7 @@ article:has(h2) {
   <p>Lorem ipsum dolor sit amet.</p>
 </article>
 
-A :not()pseudoclasse é ideal para situações em que você deseja aplicar estilos a um grupo de elementos, excluindo uma ou mais exceções 
+A :not() pseudoclasse é ideal para situações em que você deseja aplicar estilos a um grupo de elementos, excluindo uma ou mais exceções 
 específicas. No CSS abaixo, qualquer botão que não seja primário terá um fundo cinza:
 button {
   padding: 10px 20px;
