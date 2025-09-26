@@ -1,0 +1,109 @@
+Pseudoclasses de ação do usuário : são palavras-chave especiais que permitem alterar a aparência 
+dos elementos com base nas interações do usuário, melhorando a experiência geral do usuário.
+:active Pseudoclasse : Esta pseudoclasse permite selecionar o estado ativo de um elemento, 
+como clicar em um botão.
+:hover Pseudoclasse : Esta pseudoclasse define o estado de foco de um elemento.
+:focus Pseudoclasse : esta pseudoclasse aplica estilos quando um elemento ganha foco, 
+normalmente por meio de navegação pelo teclado ou quando um usuário clica em uma entrada de 
+formulário.
+:focus-within Pseudoclasse : Esta pseudoclasse é usada para aplicar estilos a um elemento quando 
+ele ou qualquer um de seus descendentes tem foco.
+
+
+Pseudoclasses de entrada : essas pseudoclasses são usadas para direcionar inputelementos HTML 
+com base no estado em que eles estão antes e depois da interação do usuário.
+:enabled Pseudoclasse : esta pseudoclasse é usada para direcionar botões de formulário ou outros 
+elementos que estão atualmente habilitados.
+:disabled Pseudoclasse : esta pseudoclasse permite estilizar um elemento interativo no modo 
+desabilitado.
+:checked Pseudoclasse : Esta pseudoclasse é usada para indicar ao usuário que ela está marcada.
+:valid Pseudoclasse : esta pseudoclasse tem como alvo os campos de entrada que atendem aos 
+critérios de validação.
+:invalid Pseudoclasse : Esta pseudoclasse tem como alvo os campos de entrada que não atendem 
+aos critérios de validação.
+:in-range e :out-of-range pseudoclasses : essas pseudoclasses aplicam estilos aos elementos com 
+base em se seus valores estão dentro ou fora das restrições de intervalo especificadas.
+:required Pseudoclasse : Esta pseudoclasse tem como alvo inputelementos que possuem o required 
+atributo. Ela sinaliza ao usuário que ele deve preencher o campo para enviar o formulário.
+:optional Pseudoclasse : Esta pseudoclasse aplica estilos a elementos de entrada que não são 
+necessários e podem ser deixados vazios.
+:autofill Pseudoclasse : Esta pseudoclasse aplica estilos aos campos de entrada que o navegador 
+preenche automaticamente com dados salvos.
+
+
+
+Pseudoclasses de localização : essas pseudoclasses são usadas para estilizar links e elementos 
+que são alvos do documento atual.
+:any-link Pseudoclasse : Esta pseudoclasse é uma combinação das pseudoclasses :linke :visited. 
+Portanto, ela corresponde a qualquer elemento âncora com um atributo href, independentemente de ser 
+visitado ou não.
+:link Pseudoclasse : Esta pseudoclasse permite segmentar todos os links não visitados em 
+uma página da web. Você pode usá-la para estilizar links de forma diferente antes que o usuário 
+clique neles.
+:local-link Pseudoclasse : Esta pseudoclasse tem como alvo links que apontam para o mesmo documento. 
+Pode ser útil quando você deseja diferenciar links internos de externos.
+:visited Pseudoclasse : esta pseudoclasse tem como alvo um link que o usuário visitou.
+:target Pseudoclasse : Esta pseudoclasse é usada para aplicar estilos a um elemento que é o alvo 
+de um fragmento de URL.
+:target-within Pseudoclasse : Esta pseudoclasse aplica estilos a um elemento quando ele ou um de 
+seus descendentes é o alvo de um fragmento de URL.
+
+
+Pseudoclasses estruturais em árvore : essas pseudoclasses permitem que você direcione e estilize 
+elementos com base em sua posição na árvore do documento.
+:root Pseudoclasse : Esta pseudoclasse geralmente é o htmlelemento raiz. Ela ajuda você a atingir 
+o nível mais alto do documento, permitindo aplicar um estilo comum a todo o documento. 
+:empty Pseudoclasse : Elementos vazios, ou seja, elementos sem filhos além de espaços em branco, 
+também são incluídos na árvore de documentos. É por isso que existe uma :emptypseudoclasse para 
+lidar com elementos vazios.
+:nth-child(n) Pseudoclasse : Esta pseudoclasse permite selecionar elementos com base em sua posição 
+dentro de um pai.
+:nth-last-child(n) Pseudoclasse : Esta pseudoclasse permite que você selecione elementos contando a 
+partir do final.
+:first-child Pseudoclasse : Esta pseudoclasse seleciona o primeiro elemento em um elemento pai ou no 
+documento.
+:last-child Pseudoclasse : Esta pseudoclasse seleciona o último elemento em um elemento pai ou no 
+documento.
+:only-child Pseudoclasse : Esta pseudoclasse seleciona o único elemento em um elemento pai ou no 
+documento.
+:first-of-type Pseudoclasse : Esta pseudoclasse seleciona a primeira ocorrência de um tipo de 
+elemento específico dentro de seu pai.
+:last-of-type Pseudoclasse : Esta pseudoclasse seleciona a última ocorrência de um tipo de elemento 
+específico dentro de seu pai.
+:nth-of-type(n) Pseudoclasse : esta pseudoclasse permite que você selecione um elemento específico 
+dentro de seu pai com base em sua posição entre irmãos do mesmo tipo.
+:only-of-typePseudoclasse : Esta pseudoclasse seleciona um elemento se ele for o único de seu 
+tipo dentro de seu pai.
+
+
+Pseudoclasses funcionais : pseudoclasses funcionais permitem selecionar elementos com base em 
+condições ou relacionamentos mais complexos. Ao contrário das pseudoclasses comuns, que selecionam 
+elementos com base em um estado (por exemplo, :hover, :focus), as pseudoclasses funcionais aceitam 
+argumentos.
+:is() Pseudoclasse : Esta pseudoclasse pega uma lista de seletores (ex. ol, ul) e seleciona um 
+elemento que corresponde a um dos seletores na lista.
+<p class="example">This text will change color.</p>
+<p>This text will not change color.</p>
+<p>This text will not change color.</p>
+<p class="this-works-too">This text will change color.</p>
+p:is(.example, .this-works-too) {
+    color: red;
+}
+:where()Pseudoclasse : Esta pseudoclasse recebe uma lista de seletores (ex. ol, ul) e seleciona um elemento que corresponde a um dos seletores da lista. A diferença entre :ise :whereé que esta última terá especificidade 0.
+:where(h1, h2, h3) {
+    margin: 0;
+    padding: 0;
+}
+:has()Pseudoclasse : esta pseudoclasse é frequentemente chamada de "parent"seletor porque permite estilizar elementos que contêm elementos filhos especificados na lista do seletor.
+article:has(h2) {
+    border: 2px solid hotpink;
+}
+:not()Pseudoclasse : Esta pseudoclasse é usada para selecionar elementos que não correspondem ao seletor fornecido.
+p:not(.example) {
+  color: blue;
+}
+Pseudoelementos
+::beforePseudoelemento : Este pseudoelemento usa a contentpropriedade para inserir conteúdo cosmético, como ícones, logo antes do elemento.
+::afterPseudoelemento : Este pseudoelemento usa a contentpropriedade para inserir conteúdo cosmético, como ícones, logo após o elemento.
+::first-letterPseudoelemento : Este pseudoelemento tem como alvo a primeira letra do conteúdo de um elemento, permitindo que você o estilize.
+::markerPseudoelemento : Este pseudoelemento permite que você selecione o marcador (marcador ou numeração) dos itens da lista para estilização.
