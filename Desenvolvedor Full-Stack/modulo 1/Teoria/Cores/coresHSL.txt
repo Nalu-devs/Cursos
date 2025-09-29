@@ -1,0 +1,43 @@
+HSL significa Matiz, Saturação e Luminosidade — três componentes principais que definem uma cor.
+O modelo de cores HSL representa as cores de uma forma mais alinhada com a percepção humana das 
+cores.
+
+A tonalidade é o tipo de cor, representado como um ângulo na roda de cores, que varia de 0 a 360 
+graus. Por exemplo, 0 graus representa vermelho, 120 graus representa verde e 240 graus representa 
+azul. Ao ajustar a tonalidade, você alterna entre diferentes cores no espectro.
+
+Saturação refere-se à intensidade ou pureza da cor. É medida como uma porcentagem de 0% (uma cor 
+completamente dessaturada, em tons de cinza) até 100% (a forma mais vibrante dessa cor). Uma cor 
+com 100% saturação é totalmente vívida, enquanto uma cor com 0% saturação aparece como um tom de 
+cinza.
+
+A luminosidade determina o quão clara ou escura é a cor, novamente medida em porcentagem. Um valor 
+de luminosidade de 0% produzirá preto, 50% dará o tom normal da tonalidade e 100% resultará em branco.
+
+Em CSS, a hsl()função é usada para definir cores usando o modelo de cores HSL. 
+Aqui está a sintaxe básica:
+element {
+  color: hsl(hue, saturation, lightness);
+}
+
+Uma das principais vantagens do modelo de cores HSL é sua natureza intuitiva. Ele facilita o ajuste 
+da vibração ou luminosidade de uma cor, alterando os valores de saturação e luminosidade sem precisar 
+alterar a cor principal (matiz).
+
+Assim como o modelo RGB possui uma rgba()função para incluir transparência, o modelo HSL possui uma 
+hsla()função. O quarto parâmetro desta função representa o valor alfa, que controla a opacidade da 
+cor. Aqui está a sintaxe básica:
+element {
+  background-color: hsla(hue, saturation, lightness, alpha);
+}
+
+O modelo de cores HSL é particularmente útil quando você precisa criar esquemas de cores e ajustar 
+tons ou matizes facilmente.
+
+Como o HSL separa o matiz da saturação e da luminosidade, você pode manter um tema de cores 
+consistente enquanto ajusta a luminosidade para sombras ou realces. Esse nível de flexibilidade 
+torna o HSL um favorito para designers e desenvolvedores.
+
+Além disso, o HSL torna os valores de cor mais legíveis e compreensíveis em comparação com outros 
+métodos, como códigos hexadecimais ou RGB. Você pode ver com mais clareza a intenção por trás da 
+cor e fazer os ajustes necessários, especialmente ao experimentar designs diferentes.
