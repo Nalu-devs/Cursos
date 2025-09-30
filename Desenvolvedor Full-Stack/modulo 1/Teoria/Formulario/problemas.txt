@@ -1,0 +1,16 @@
+Esses tipos especiais de entradas dependem de pseudoelementos complexos para criar elementos como 
+os seletores de data e cor. Isso representa um desafio significativo para a estilização dessas 
+entradas. Um dos desafios é que a estilização padrão depende inteiramente do navegador, portanto, 
+o CSS que você escreve para dar ao seletor a aparência desejada pode ser totalmente diferente em 
+outro navegador.
+Outro fator pode ser a complexidade do pseudoelemento. Considere o seletor de data; há muitas 
+partes móveis aqui e a estrutura complexa do pseudoelemento pode representar um desafio 
+significativo na aplicação de estilo às áreas certas.
+
+É claro que, com esses elementos complexos, você também corre o risco de perder acidentalmente 
+funcionalidades importantes ao estilizá-los manualmente. Você não só pode perder indicadores 
+importantes, como o estado do foco ou o item selecionado, como também pode danificar completamente 
+o seletor.
+
+Por esses motivos, muitos desenvolvedores dependem inteiramente de bibliotecas JavaScript ou 
+componentes personalizados em vez de usar os componentes internos do navegador.
