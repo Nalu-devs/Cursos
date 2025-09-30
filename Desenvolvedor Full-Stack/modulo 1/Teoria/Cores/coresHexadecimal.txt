@@ -1,0 +1,24 @@
+Um código hexadecimal (abreviação de código hexadecimal) é uma sequência de seis caracteres usada 
+para representar cores no modelo de cores RGB. O "hex" refere-se ao sistema de numeração de base 
+16, que usa digitos de 0 a 9 e letras de A a F.
+
+Cada código hexadecimal começa com um símbolo de cerquilha (#), seguido por seis caracteres que
+definem a intensidade de vermelho, verde e azul na cor.
+
+Por exemplo, o código hexadecimal para preto é #000000, e o código hexadecimal para branco é
+#FFFFFF. Os dois primeiros caracteres representam o valor vermelho, os dois seguintes representam 
+o verde e os dois últimos representam o azul.
+Em CSS, você pode aplicar cores a elementos usando códigos hexadecimais. Aqui está a sintaxe básica:
+element {
+  color: #RRGGBB;
+}
+
+Os códigos hexadecimais são populares porque são precisos e fáceis de usar. Eles permitem ajustar as 
+cores, tornando-os ideais para designs onde a consistência é importante.
+A maioria dos softwares de design, como Adobe Photoshop ou Figma, fornece códigos hexadecimais para 
+as cores selecionadas, o que facilita copiar e colar esses valores diretamente nos seus arquivos CSS.
+
+Em alguns casos, você pode notar códigos hexadecimais escritos em formato abreviado, usando apenas 
+três caracteres em vez de seis. Isso é possível quando ambos os caracteres em cada par de cores são 
+iguais. Por exemplo, #FF5733 não pode ser abreviado, mas #FFFFFF (branco) pode ser escrito como
+#FFF.
