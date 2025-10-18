@@ -2,3 +2,14 @@ npx create-expo-app hooks --template blank: cria um projeto
 
 npx expo install react-dom react-native-web: instala react dom e react native web
 
+git init: baixa uma pasta .git
+
+ git config --global user.name "Nalu-devs": configurar as credencias do github
+
+git config --global user.email "pordosol699@gmail.com": configurar as credencias do github
+
+git status: verificar os arquivos para ver esta ok para subir no github
+
+git ass --all: rastear os commits
+
+git commit -m "Mensagem do commit": fazer um commit
