@@ -13,3 +13,5 @@ git status: verificar os arquivos para ver esta ok para subir no github
 git ass --all: rastear os commits
 
 git commit -m "Mensagem do commit": fazer um commit
+
+git log: mostra os ultimos commits
