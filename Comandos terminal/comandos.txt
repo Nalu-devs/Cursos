@@ -1,1 +1,4 @@
-npx create-expo-app hooks --template blank cria um projeto
+npx create-expo-app hooks --template blank: cria um projeto
+
+npx expo install react-dom react-native-web: instala react dom e react native web
+
