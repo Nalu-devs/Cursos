@@ -21,3 +21,5 @@ clear: limpa terminal
 git remote add origin "link do repositorio": serve para vincular o repositorio remoto
 
 git push origin master: colocar o commit no repositorio
+
+dotnet new console -o ./CsharpProjects/TestProject: para criar um novo aplicativo de console em uma pasta especificada
