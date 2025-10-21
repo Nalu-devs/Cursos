@@ -1,0 +1,31 @@
+O linkelemento é usado para vincular recursos externos, como folhas de estilo e ícones de sites. 
+Esta é a sintaxe básica para usar o linkelemento em um arquivo CSS externo:
+
+<link rel="stylesheet" href="./styles.css" />
+
+O relatributo é usado para especificar a relação entre o recurso vinculado e o documento HTML. 
+Nessa situação, precisamos especificar que esse recurso vinculado é um stylesheet.
+
+É considerada uma prática recomendada separar HTML e CSS em arquivos diferentes. Os desenvolvedores 
+usarão o linkelemento para seus arquivos CSS externos em vez de escrever tudo no documento HTML.
+
+O hrefatributo é usado para especificar o local da URL do recurso externo.
+
+O dot seguido por uma barra no exemplo informa ao computador para procurar o styles.css arquivo 
+na pasta ou diretório atual.
+
+O linkelemento deve ser colocado dentro do headelemento
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Examples of the link element</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+Outro uso comum do linkelemento é a vinculação a ícones.
+
+<link rel="icon" href="favicon.ico" />
+
+Um favicon, abreviação de ícone favorito, é um pequeno ícone normalmente exibido na aba do 
+navegador, ao lado do título do site. Muitos sites usam um favicon para exibir o ícone da sua marca.
