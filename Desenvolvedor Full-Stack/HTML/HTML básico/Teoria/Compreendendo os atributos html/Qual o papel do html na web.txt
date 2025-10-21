@@ -1,0 +1,39 @@
+HTML, sigla para Hypertext Markup Language, é uma linguagem de marcação para a criação de páginas 
+web. Quando você visita um site e vê conteúdo como parágrafos, títulos, links, imagens e vídeos, 
+isso é HTML.
+
+HTML representa o conteúdo e a estrutura de uma página web por meio do uso de elementos. A maioria 
+dos elementos possui uma tag de abertura e uma tag de fechamento. Às vezes, essas tags são chamadas 
+de tags de início e fim. Entre essas duas tags, você encontrará o conteúdo. Esse conteúdo pode ser 
+texto ou outros elementos HTML.
+
+Tanto as tags de abertura quanto as de fechamento começam com um colchete angular esquerdo (<) e 
+terminam com um colchete angular direito (>), com o nome da tag posicionado entre esses colchetes 
+angulares. Embora os nomes de tags HTML não diferenciem maiúsculas de minúsculas, é uma convenção 
+amplamente aceita e uma prática recomendada escrevê-los em letras minúsculas.
+
+<p></p>
+
+O que distingue uma tag de abertura de uma tag de fechamento é a barra (/) colocada imediatamente 
+após o sinal de menor que o ângulo esquerdo em uma tag de fechamento. Alguns elementos HTML não 
+possuem uma tag de fechamento. Eles são conhecidos como elementos vazios.
+
+<img>
+
+Embora muitos formatadores de código, como Prettier, optem por incluir os /elementos in void, a 
+especificação HTML afirma que a presença do /"não marca a tag de início como autofechante, mas é 
+desnecessária e não tem efeito algum".
+
+No desenvolvimento do mundo real, você verá ambas as formas, por isso é importante estar 
+familiarizado com ambas.
+
+Se você quiser exibir uma imagem, precisará incluir alguns atributos dentro do elemento de 
+imagem. Um atributo é um valor especial usado para ajustar o comportamento de um elemento HTML.
+
+<img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" />
+
+O srcatributo é usado para especificar a localização da imagem. Para elementos de imagem, é 
+recomendável incluir outro atributo chamado altatributo. O altatributo é usado para fornecer 
+um texto curto e descritivo para as imagens.
+
+<img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Two tabby kittens sleeping together on a couch." />
