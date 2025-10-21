@@ -1,0 +1,23 @@
+Um atributo é um valor inserido na tag de abertura de um elemento HTML. Os atributos fornecem 
+informações adicionais sobre o elemento ou especificam como ele deve se comportar. Aqui está a 
+sintaxe básica de um atributo:
+
+<element attribute="value"></element>
+
+O nome do atributo é seguido por um sinal de igual (=) e um valor entre aspas. O valor pode 
+ser uma string ou um número, dependendo do atributo.
+
+Sem o hrefatributo, o link não funcionaria porque não haveria URL de destino. Portanto, você deve 
+incluir este hrefatributo para tornar o link funcional. Isso target="__blank" permite que o link 
+seja aberto em uma nova aba do navegador.
+
+Outros atributos comuns são src, e alt, ou atributo alternativo - que são usados ​​para especificar 
+a origem de uma imagem e fornecer texto descritivo alternativo para a imagem, respectivamente.
+
+Alguns atributos são um pouco únicos em sua sintaxe, como o checkedatributo.
+
+<input type="checkbox" checked />
+
+Existem vários atributos booleanos comuns que você encontrará em HTML, como disabled, readonlye 
+required. Esses atributos são usados ​​para especificar o estado de um elemento, como se ele está 
+desabilitado, somente leitura ou obrigatório.
