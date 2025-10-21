@@ -1,0 +1,23 @@
+UTF-8, ou UCS Transformation Format 8, é uma codificação de caracteres padronizada amplamente 
+utilizada na web. A codificação de caracteres é o método que os computadores usam para armazenar 
+caracteres como dados. Essencialmente, todo texto em uma página web é uma sequência de caracteres 
+armazenados como um ou mais bytes. Na computação, um byte é uma unidade de dados composta por 8 
+bits, ou dígitos binários. O UTF-8 suporta todos os caracteres do conjunto de caracteres Unicode, 
+incluindo caracteres e símbolos de todos os sistemas de escrita, idiomas e símbolos técnicos.
+
+<meta charset="UTF-8" />
+
+Ao definir a codificação de caracteres como UTF-8, você garantirá que o "e" caractere acentuado 
+(é) seja exibido corretamente na página.
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Examples of the UTF-8 encoding</title>
+  </head>
+  <body>
+    <p>Café</p>
+  </body>
+</html>
