@@ -23,3 +23,7 @@ git remote add origin "link do repositorio": serve para vincular o repositorio r
 git push origin master: colocar o commit no repositorio
 
 dotnet new console -o ./CsharpProjects/TestProject: para criar um novo aplicativo de console em uma pasta especificada
+
+git checkout -b "nalu": serve para sair de um branch e o -b para criar outro
+
+$ git checkout nalu: serve para sair de um branch e entrar em outro que existe
