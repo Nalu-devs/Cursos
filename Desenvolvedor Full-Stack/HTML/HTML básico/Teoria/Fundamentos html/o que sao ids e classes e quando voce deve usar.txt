@@ -1,0 +1,67 @@
+O id atributo adiciona um identificador exclusivo a um elemento HTML.
+
+<h1 id="title">Movie Review Page</h1>
+
+Você pode referenciar o idnome de titleno seu JavaScript ou CSS
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+       name="viewport"
+       content="width=device-width, initial-scale=1.0" />
+    <title>Review page Example</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Movie Review Page</h1>
+  </body>
+</html>
+
+#title {
+  color: red;
+}
+
+O símbolo de hash (#) antes de title, informa ao computador que você deseja atingir um id com 
+esse valor. id Nomes não devem ser usados ​​mais de uma vez e devem ser sempre únicos. Outra coisa a se 
+observar sobre idvalores é que eles não podem conter espaços.
+Ao contrário do id atributo, o class valor do atributo não precisa ser único e pode conter espaços.
+
+<div class="box"></div>
+
+Se você quiser adicionar vários nomes de classes a um elemento, pode fazê-lo separando-os por um 
+espaço
+
+<div class="box red-box"></div>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+       name="viewport"
+       content="width=device-width, initial-scale=1.0" />
+    <title>Colored boxes example</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="box red-box"></div>
+    <div class="box blue-box"></div>
+    <div class="box red-box"></div>
+    <div class="box blue-box"></div>
+  </body>
+</html>
+
+.box {
+  width: 100px;
+  height: 100px;
+}
+
+.red-box {
+  background-color: red;
+}
+
+.blue-box {
+  background-color: blue;
+}
