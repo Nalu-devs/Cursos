@@ -1,0 +1,31 @@
+O protocolo Open Graph permite que você controle como o conteúdo do seu site aparece em diversas 
+plataformas de mídia social, como Facebook, LinkedIn e muitas outras. Ao definir essas propriedades 
+de Open Graph, você pode incentivar os usuários a clicarem e interagirem com o seu conteúdo. Você 
+pode definir essas propriedades por meio de um conjunto de meta elementos dentro da sua head seção 
+HTML.
+
+<meta content="freeCodeCamp.org" property="og:title" />
+
+Para o property atributo, você precisará especificar que ele é og:title. O content atributo é onde 
+você escreverá o título que deseja exibir nos sites de mídia social.
+
+<meta property="og:type" content="website" />
+
+A type propriedade é usada para representar o tipo de conteúdo compartilhado nas redes sociais. 
+Exemplos desse conteúdo incluem artigos, sites, vídeos ou músicas
+
+<meta
+  content="https://cdn.freecodecamp.org/platform/universal/fcc_meta_1920X1080-indigo.png"
+  property="og:image"
+/>
+
+Neste exemplo, a imagem do gráfico aberto aponta para o logotipo do freeCodeCamp. Todas essas 
+imagens devem ser de alta qualidade, com boas dimensões e proporções. A maioria das plataformas
+de mídia social inclui critérios de requisitos de imagem para ajudar você a garantir que seu 
+conteúdo seja exibido corretamente no site. Por exemplo, a página de documentação developers.
+facebook.com afirma:
+"Use imagens com pelo menos 1200 x 630 pixels para melhor exibição em dispositivos de alta resolução.
+No mínimo, você deve usar imagens com 600 x 315 pixels para exibir postagens de páginas de links com 
+imagens maiores."
+
+<meta property="og:url" content="https://www.freecodecamp.org" />
