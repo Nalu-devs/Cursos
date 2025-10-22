@@ -1,0 +1,15 @@
+O scriptelemento é usado para incorporar código executável. A maioria dos desenvolvedores 
+o utiliza para executar código JavaScript. O JavaScript é usado para adicionar interatividade às 
+suas páginas web. Exemplos comuns de uso de JavaScript incluem jogos interativos, controles 
+deslizantes de imagens e formulários dinâmicos que validam a entrada do usuário em tempo real.
+
+<body>
+  <script>
+    alert("Welcome to freeCodeCamp");
+  </script>
+</body>
+
+Embora tecnicamente seja possível escrever todo o seu código JavaScript dentro das scripttags,
+é considerada uma prática recomendada vincular a um arquivo JavaScript externo.
+
+<script src="path-to-javascript-file.js"></script>
