@@ -1,0 +1,29 @@
+Uma entidade HTML, ou referência de caractere, é um conjunto de caracteres usados ​​para representar 
+um caractere reservado em HTML.
+
+Digamos que você queira exibir o texto This is an <img/> elementna tela. Se você usar o código 
+atualmente no editor, ele não exibirá o resultado desejado. Mesmo se você adicionar atributos src e 
+alt ao exemplo, ele exibirá uma imagem no meio do parágrafo.
+
+Para corrigir esse problema, você pode usar entidades HTML. Aqui está um exemplo atualizado usando 
+as entidades HTML corretas para os símbolos "menor <que" ( ) e "maior que" ( >). Agora você deve ver 
+This is an <img/> elementna tela.
+
+<p>This is an &lt;img /&gt; element</p>
+
+Esses tipos de referências de caracteres são conhecidos como referências de caracteres nomeados. 
+Referências nomeadas começam com um sinal de "e" comercial (&) e terminam com um ponto e vírgula 
+(;). Ao usar uma referência de caractere nomeado, o analisador HTML não a confundirá com um elemento 
+HTML real.
+
+Outro tipo de referência de caractere seria a referência numérica decimal. Essa referência de 
+caractere começa com um sinal de "e" comercial e um símbolo de cerquilha (#), seguidos por um ou 
+mais dígitos decimais, seguidos por um ponto e vírgula.
+
+&#60;
+
+O último tipo de referência de caractere seria a referência numérica hexadecimal. Essa referência 
+de caractere começa com um sinal de "e" comercial, um símbolo de cerquilha e a letra x. Em seguida,
+é seguida por um ou mais dígitos hexadecimais ASCII e termina com um ponto e vírgula.
+
+&#x3C;
