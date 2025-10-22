@@ -1,0 +1,15 @@
+SEO, ou Otimização para Mecanismos de Busca, é uma prática que otimiza páginas da web para que 
+elas se tornem mais visíveis e tenham uma classificação mais alta nos mecanismos de busca. Uma 
+maneira de melhorar o SEO do seu site é fornecer uma breve descrição da página usando o meta elemento 
+meta.
+
+<meta
+  name="description"
+  content="Discover expert tips and techniques for gardening in small spaces, choosing the right plants, and maintaining a thriving garden."
+/>
+
+Ao definir o name atributo como description, você garante que navegadores, mecanismos de busca e 
+outras ferramentas da web interpretem corretamente esses metadados. O content atributo é onde você 
+colocará sua descrição. Recomenda-se que você mantenha suas descrições curtas e concisas. Isso ocorre 
+porque os mecanismos de busca frequentemente truncam a descrição com base no layout da página de 
+resultados.
