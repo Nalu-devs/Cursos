@@ -1,0 +1,70 @@
+Os elementos audioe video permitem adicionar conteúdo de som e vídeo aos seus documentos HTML. O 
+audio elemento suporta formatos de áudio populares como mp3, wav e ogg. O video elemento suporta os 
+formatos mp4, ogg e webm.
+
+Para incluir conteúdo de áudio na sua página da web, você pode usar o audio elemento com o src 
+atributo apontando para o local do seu arquivo de áudio.
+
+<audio src="https://cdn.freecodecamp.org/curriculum/js-music-player/cruising-for-a-musing.mp3"></audio>
+
+Se quiser ver o player de áudio na página, você pode adicionar o audioelemento com o 
+controls atributo.
+
+<audio src="https://cdn.freecodecamp.org/curriculum/js-music-player/cruising-for-a-musing.mp3" controls></audio>
+
+O controls atributo permite que os usuários gerenciem a reprodução de áudio, incluindo ajuste de 
+volume e pausa ou retomada da reprodução. O controls atributo é um atributo booleano que pode ser 
+adicionado a um elemento para habilitar controles de reprodução integrados. Se omitido, nenhum 
+controle será exibido.
+
+O loopatributo é um atributo booleano que faz com que o áudio seja reproduzido continuamente.
+
+<audio
+  src="https://cdn.freecodecamp.org/curriculum/js-music-player/can't-stay-down.mp3"
+  loop
+  controls></audio>
+
+Outro atributo que você pode usar é o muted atributo . Quando presente no audioelemento, este 
+atributo booleano iniciará o áudio em um estado silenciado. Veja um exemplo de uso do 
+muted atributo
+
+<audio
+  src="https://cdn.freecodecamp.org/curriculum/js-music-player/can't-stay-down.mp3"
+  loop
+  controls
+  muted
+></audio>
+
+Quando se trata de tipos de arquivos de áudio, existem diferenças entre os navegadores que 
+suportam cada tipo. Para acomodar isso, você pode usar source elementos dentro do audio elemento 
+e o navegador selecionará a primeira fonte que entender. Veja um exemplo do uso de vários 
+source elementos para um audio elemento:
+
+<audio controls>
+  <source src="audio.ogg" type="audio/ogg" />
+  <source src="audio.wav" type="audio/wav" />
+  <source src="audio.mp3" type="audio/mpeg" />
+</audio>
+
+Todos os atributos que aprendemos até agora também são suportados no video elemento.
+
+<video
+  src="https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4"
+  loop
+  controls
+  muted
+  width="400"
+></video>
+
+Para o src atributo , ou source, estamos usando um vídeo chamado "Big Buck Bunny" do archive.org. 
+Se você quiser exibir uma imagem durante o download do vídeo, pode usar o poster atributo . Este 
+atributo não está disponível para audio elementos e é exclusivo do video elemento.
+
+<video
+  src="https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4"
+  loop
+  controls
+  muted
+  poster="https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217"
+  width="400"
+></video>
