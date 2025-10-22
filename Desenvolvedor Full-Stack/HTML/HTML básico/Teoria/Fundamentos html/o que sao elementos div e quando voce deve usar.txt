@@ -1,0 +1,31 @@
+O div elemento é usado como um contêiner para agrupar outros elementos.
+
+<div>
+  <p>Example paragraph element.</p>
+  <p>Example two paragraph</p>
+</div>
+
+Você usará o div elemento principalmente quando quiser agrupar elementos HTML que compartilharão um 
+conjunto de estilos CSS.
+
+Embora o div elemento seja comumente usado em bases de código do mundo real, você deve ter cuidado 
+para não usá-lo em excesso. Há momentos em que outro elemento seria mais apropriado.
+
+Por exemplo, se você quisesse dividir seu conteúdo em seções, o section elemento seria mais 
+apropriado do que um div elemento.
+
+<section>
+  <h2>Mammals</h2>
+  <p>Mammals are warm-blooded animals with fur or hair. Most give birth to live young.</p>
+  <ul>
+    <li>Lion</li>
+    <li>Elephant</li>
+    <li>Dolphin</li>
+  </ul>
+</section>
+
+O section elemento tem um significado semântico sobre o div elemento que não é semântico. 
+Semântica é o significado de palavras ou frases em uma linguagem. Em HTML, que é uma linguagem, 
+os elementos também têm seu próprio significado semântico. Isso significa que, se você usar um 
+section elemento, o navegador captará seu significado semântico e o entenderá como uma seção — em 
+desktops, celulares, etc. 
