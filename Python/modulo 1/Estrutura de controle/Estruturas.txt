@@ -1,0 +1,123 @@
+As estruturas de controle nos permitem controlar o fluxo de execução de nossos programas. Em 
+Python, as estruturas de controle mais comuns são as estruturas condicionais e os loops. Essas 
+estruturas nos permitem tomar decisões e repetir blocos de código segundo certas condições.
+
+ESTRUTURAS CONDICIONAIS
+
+IF
+
+A estrutura if é utilizada para executar um bloco de código se uma condição for verdadeira
+if condicao:
+   # Bloco de código a executar se a condição for verdadeira
+   instruções
+EXEMPLO:
+
+idade = 18
+if idade >= 18:
+   print ("Você é maior de idade.")
+
+
+IF-ELSE
+
+A estrutura if-else nos permite especificar um bloco de código alternativo que será executado
+se a condição do if for falsa
+EXEMPLO:
+
+idade = 15
+if idade >= 18:
+   print ("Você é maior de idade.")
+else:
+   print ("Você é menor de idade.")
+
+
+IF-ELIF-ELSE
+
+A estrutura if-elif-else nos permite especificar múltiplas condições e blocos de código alternativos.
+EXEMPLO:
+
+nota = 85
+if nota >= 90:
+   print ("Excelente")
+elif nota >= 80:
+   print ("Muito bom")
+elif nota >= 70:
+   print ("Bom")
+else:
+   print ("Precisa melhorar")
+
+
+
+
+
+LOOPS
+
+Os loops nos permitem repetir um bloco de código várias vezes
+
+FOR
+
+O loop for é utilizado para iterar sobre uma sequência (como uma lista, uma tupla ou uma string)
+ou qualquer objeto iterável
+EXEMPLO:
+
+frutas = ["maçã", "banana", "laranja"]
+for fruta in frutas:
+    print(fruta)
+
+
+
+WHILE
+
+O loop while é utilizado para repetir um bloco de código enquanto uma condição for verdadeira
+EXEMPLO:
+
+contador = 0
+while contador < 5:
+    print(contador)
+    contador += 1
+
+
+
+
+CONTROLE DE LOOPS
+
+BREAK
+
+A instrução break é utilizada para sair prematuramente de um loop, independentemente da condição. 
+Quando um break é encontrado, o loop é interrompido e o fluxo de execução continua com a próxima 
+instrução fora do loop.
+EXEMPLO:
+
+contador = 0
+while True:
+    print(contador)
+    contador += 1
+    if contador == 5:
+        break
+
+
+CONTINUE
+
+A instrução continue é utilizada para pular o restante do bloco de código dentro de um loop e passar 
+para a próxima iteração.
+EXEMPLO:
+
+for i in range(10):
+    if i % 2 == 0:
+        continue
+    print(i)
+Neste exemplo, o loop for itera sobre os números de 0 a 9 utilizando a função range(). Dentro do loop, 
+verifica-se se o número é divisível por 2 utilizando o operador de módulo %. Se o número for 
+divisível por 2 (ou seja, se for par), a instrução continue é executada, fazendo com que o restante 
+do bloco de código seja pulado e passando para a próxima iteração do loop. Como resultado, apenas os
+números ímpares serão impressos.
+
+
+
+PASS
+
+A instrução pass é uma operação nula que não faz nada. É utilizada como um marcador de posição quando 
+uma instrução é sintaticamente necessária, mas nenhuma ação é desejada.
+EXEMPLO:
+
+for i in range(5):
+    pass
