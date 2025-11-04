@@ -1,0 +1,213 @@
+As estruturas de dados nos permitem organizar e armazenar dados de maneira eficiente em nossos 
+programas. Python fornece várias estruturas de dados integradas, como listas, tuplas, dicionários 
+e conjuntos, cada uma com suas próprias características e usos.
+
+LISTAS
+
+Uma lista é uma estrutura de dados mutável e ordenada que permite armazenar uma coleção de elementos. 
+Os elementos de uma lista podem ser de diferentes tipos de dados e são encerrados entre colchetes 
+[], separados por vírgulas.
+
+
+CRIAÇÃO E ACESSO
+
+Para criar uma lista, simplesmente encerre os elementos entre colchetes:
+EXEMPLO:
+
+frutas = ["maçã", "banana", "laranja"]
+
+Para acessar os elementos de uma lista, utilize o índice do elemento entre colchetes. Os
+índices começam a partir de 0.
+EXEMPLO:
+
+print(frutas[0])  # Imprime "maçã"
+print(frutas[1])  # Imprime "banana"
+print(frutas[2])  # Imprime "laranja"
+
+Você também pode acessar os elementos a partir do final da lista utilizando índices negativos.
+O índice -1 representa o último elemento, -2 representa o penúltimo, e assim por diante.
+EXEMPLO:
+
+print(frutas[-1])  # Imprime "laranja"
+print(frutas[-2])  # Imprime "banana"
+print(frutas[-3])  # Imprime "maçã"
+
+
+
+METODOS DE LISTAS
+
+1 - append(elemento): adiciona um elemento ao final da lista.
+2 - insert(indice, elemento): insere um elemento em uma posição específica da lista.
+3 - remove(elemento): remove a primeira ocorrência de um elemento na lista.
+4 - pop(indice): remove e retorna o elemento em uma posição específica da lista.
+5 - sort(): ordena os elementos da lista em ordem ascendente.
+6 - reverse(): inverte a ordem dos elementos na lista.
+EXEMPLO:
+
+frutas = ["maçã", "banana", "laranja"]
+frutas.append("pera")
+print(frutas)  # Imprime ["maçã", "banana", "laranja", "pera"]
+
+frutas.insert(1, "uva")
+print(frutas)  # Imprime ["maçã", "uva", "banana", "laranja", "pera"]
+
+frutas.remove("banana")
+print(frutas)  # Imprime ["maçã", "uva", "laranja", "pera"]
+
+fruta_removida = frutas.pop(2)
+print(frutas)  # Imprime ["maçã", "uva", "pera"]
+print(fruta_removida)  # Imprime "laranja"
+
+frutas.sort()
+print(frutas)  # Imprime ["maçã", "pera", "uva"]
+
+frutas.reverse()
+print(frutas)  # Imprime ["uva", "pera", "maçã"]
+
+
+LISTA DE COMPREENSÃO
+
+As listas de compreensão são uma forma concisa de criar novas listas baseadas em uma 
+sequência existente. Permitem filtrar e transformar os elementos de uma lista em uma única 
+linha de código.
+nova_lista = [expressão for elemento in sequência if condição]
+EXEMPLO:
+
+números = [1, 2, 3, 4, 5]
+quadrados = [x ** 2 for x in números if x % 2 == 0]
+print(quadrados)  # Imprime [4, 16]
+
+
+
+
+
+
+
+TUPLAS
+
+Uma tupla é uma estrutura de dados imutável e ordenada que permite armazenar uma coleção de 
+elementos. Os elementos de uma tupla são encerrados entre parênteses (), separados por vírgulas.
+
+CRIAÇÃO E ACESSO
+
+Para criar uma tupla, encerre os elementos entre parênteses:
+ponto = (3, 4)
+
+Para acessar os elementos de uma tupla, utilize o índice do elemento entre colchetes, 
+similar às listas:
+print(ponto[0])  # Imprime 3
+print(ponto[1])  # Imprime 4
+
+Ao contrário das listas, as tuplas são imutáveis, o que significa que não podem ser modificadas 
+uma vez criadas. Não se pode adicionar, eliminar ou alterar elementos em uma tupla existente.
+
+
+
+METODOS DE TUPLAS
+
+1 - count(elemento): devolve o número de vezes que um elemento aparece na tupla. 
+2 - index(elemento): devolve o índice da primeira aparição de um elemento na tupla. Opcionalmente, 
+pode-se especificar o início e fim da busca. 
+3 - len(tupla): embora não seja um método de tupla propriamente dito, esta função incorporada devolve 
+o comprimento da tupla.
+
+minha_tupla = (1, 2, 3, 2, 4, 2)
+print (minha_tupla.index(2))   # Saída: 1
+
+print (minha_tupla.index(2, 2))   #Saída: 3
+
+print (minha_tupla.index(2, 2, 4))   #Saída: 3
+
+
+
+
+
+DICIONARIOS
+
+Um dicionário é uma estrutura de dados mutável e não ordenada que permite armazenar pares de 
+chave-valor. Cada elemento em um dicionário consiste em uma chave única e seu valor correspondente.
+Os dicionários são delimitados por chaves {}, e os pares chave-valor são separados por vírgulas
+
+
+CRIAÇÃO E ACESSO
+
+Para criar um dicionário, utilize chaves e separe as chaves e valores com dois pontos.
+pessoa = {"nome": "João", "idade": 25, "cidade": "Madri"}
+
+Para acessar os valores de um dicionário, utilize a chave correspondente entre colchetes:
+print(pessoa["nome"])  # Imprime "João"
+print(pessoa["idade"])    # Imprime 25
+print(pessoa["cidade"])  # Imprime "Madri"
+
+
+METODOS DE DICIONARIOS
+
+1 - keys(): retorna uma visualização de todas as chaves do dicionário.
+2 - values(): retorna uma visualização de todos os valores do dicionário.
+3 - items(): retorna uma visualização de todos os pares chave-valor do dicionário.
+4 - update(outro_dicionario): atualiza o dicionário com os pares chave-valor de outro dicionário.
+EXEMPLO:
+
+pessoa = {"nome": "João", "idade": 25, "cidade": "Madri"}
+print(pessoa.keys())    # Imprime dict_keys(["nome", "idade", "cidade"])
+print(pessoa.values())  # Imprime dict_values(["João", 25, "Madri"])
+print(pessoa.items())   # Imprime dict_items([("nome", "João"), ("idade", 25), ("cidade", "Madri")])
+
+pessoa.update({"profissao": "Engenheiro"})
+print(pessoa)  # Imprime {"nome": "João", "idade": 25, "cidade": "Madri", "profissao": "Engenheiro"}
+
+
+CONJUNTOS
+
+Um conjunto é uma estrutura de dados mutável e não ordenada que permite armazenar uma coleção de 
+elementos únicos. Os conjuntos são delimitados por chaves {} ou são criados utilizando a função 
+set().
+
+
+CRIAÇÃO E OPERAÇÕES BASICAS
+
+Para criar um conjunto, utilize chaves ou a função set():
+frutas = {"maçã", "banana", "laranja"}
+numeros = set([1, 2, 3, 4, 5])
+
+Os conjuntos suportam operações matemáticas de conjuntos, como a união (|), a interseção (&), a 
+diferença (-) e a diferença simétrica (^)
+EXEMPLO:
+
+conjunto1 = {1, 2, 3}
+conjunto2 = {3, 4, 5}
+uniao = conjunto1 | conjunto2
+print(uniao)  # Imprime {1, 2, 3, 4, 5}
+
+intersecao = conjunto1 & conjunto2
+print(intersecao)  # Imprime {3}
+
+diferenca = conjunto1 - conjunto2
+print(diferenca)  # Imprime {1, 2}
+
+diferenca_simetrica = conjunto1 ^ conjunto2
+print(diferenca_simetrica)  # Imprime {1, 2, 4, 5}
+
+
+
+METODOS DE CONJUNTOS
+
+1 - add(elemento): adiciona um elemento ao conjunto.
+2 - remove(elemento): remove um elemento do conjunto. Se o elemento não existir, gera um erro.
+3 - discard(elemento): remove um elemento do conjunto se estiver presente. Se o elemento não existir, 
+não faz nada.
+4 - clear(): remove todos os elementos do conjunto.
+EXEMPLO:
+
+frutas = {"maçã", "banana", "laranja"}
+frutas.add("pera")
+print(frutas)  # Imprime {"maçã", "banana", "laranja", "pera"}
+
+frutas.remove("banana")
+print(frutas)  # Imprime {"maçã", "laranja", "pera"}
+
+frutas.discard("uva")
+print(frutas)  # Imprime {"maçã", "laranja", "pera"}
+
+frutas.clear()
+print(frutas)  # Imprime set()
