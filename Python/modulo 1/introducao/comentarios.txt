@@ -1,0 +1,12 @@
+COMENTARIOS
+Os comentários são linhas de texto no código que são ignoradas pelo interpretador do Python. Eles são 
+utilizados para explicar ou documentar o código. No Python, os comentários de uma única linha começam
+com o símbolo #, enquanto os comentários de várias linhas são delimitados por três aspas """
+EXEMPLO:
+
+# Este é um comentário de uma única linha
+
+"""
+Este é um comentário
+de várias linhas
+"""

@@ -1,0 +1,4 @@
+SENSIBILIDADE A MAIUSCULAS E MINUSCULAS
+
+Python distingue entre maiúsculas e minúsculas. Portanto, variável, Variável e VARIÁVEL são 
+consideradas variáveis diferentes.

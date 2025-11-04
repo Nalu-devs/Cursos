@@ -1,0 +1,9 @@
+QUANDO PYTHON FOI CRIADO E PORQUE
+
+Python foi criado por Guido van Rossum, um programador holandês, no final dos anos 80 e início
+dos anos 90. A primeira versão do Python, a 0.9.0, foi lançada em 1991. Guido van Rossum nomeou 
+a linguagem em homenagem ao grupo de comédia britânico Monty Python, do qual era um grande fã.
+
+Python foi projetado com o objetivo de ser uma linguagem fácil de ler e escrever, com uma sintaxe 
+clara e concisa. Ao longo dos anos, evoluiu e ganhou popularidade até se tornar uma das linguagens 
+de programação mais utilizadas no mundo.

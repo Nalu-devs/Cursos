@@ -1,0 +1,11 @@
+OBJETIVOS DO CURSO
+
+Compreender os conceitos básicos de programação utilizando Python, incluindo variáveis, 
+tipos de dados, estruturas de controle e funções.
+
+Desenvolver habilidades práticas para resolver problemas utilizando Python, fomentando 
+a resolução de desafios e a criatividade na programação.
+
+Proporcionar as habilidades necessárias para compreender e utilizar bibliotecas e módulos 
+de Python que lhes permitam ampliar suas capacidades de programação e explorar diferentes 
+áreas de aplicação.

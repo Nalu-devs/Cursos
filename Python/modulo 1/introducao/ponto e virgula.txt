@@ -1,0 +1,8 @@
+PONTO E VIRGULA
+
+Diferente de outras linguagens, o Python não requer o uso de ponto e vírgula (;) ao final de cada 
+instrução. No entanto, se você desejar escrever várias instruções em uma única linha, pode separá-las 
+com um ponto e vírgula.
+EXEMPLO:
+
+instrucao1; instrucao2; instrucao3

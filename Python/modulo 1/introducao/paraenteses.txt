@@ -1,0 +1,5 @@
+USO DE PARENTESES
+
+Os parênteses são utilizados para agrupar expressões, definir funções e realizar chamadas a funções. 
+EXEMPLO:
+resultado = (a + b) * c

@@ -1,29 +1,3 @@
-OBJETIVOS DO CURSO
-
-Compreender os conceitos básicos de programação utilizando Python, incluindo variáveis, 
-tipos de dados, estruturas de controle e funções.
-
-Desenvolver habilidades práticas para resolver problemas utilizando Python, fomentando 
-a resolução de desafios e a criatividade na programação.
-
-Proporcionar as habilidades necessárias para compreender e utilizar bibliotecas e módulos 
-de Python que lhes permitam ampliar suas capacidades de programação e explorar diferentes 
-áreas de aplicação.
-
-
-
-QUANDO PYTHON FOI CRIADO E PORQUE
-
-Python foi criado por Guido van Rossum, um programador holandês, no final dos anos 80 e início
-dos anos 90. A primeira versão do Python, a 0.9.0, foi lançada em 1991. Guido van Rossum nomeou 
-a linguagem em homenagem ao grupo de comédia britânico Monty Python, do qual era um grande fã.
-
-Python foi projetado com o objetivo de ser uma linguagem fácil de ler e escrever, com uma sintaxe 
-clara e concisa. Ao longo dos anos, evoluiu e ganhou popularidade até se tornar uma das linguagens 
-de programação mais utilizadas no mundo.
-
-
-
 CARACTERISTICAS
 
 Legibilidade: Python utiliza uma sintaxe clara e simples, o que facilita a leitura e compreensão 
@@ -48,14 +22,3 @@ conexão a bancos de dados, processamento de texto, entre outros.
 Comunidade ativa: Python conta com uma comunidade de desenvolvedores grande e ativa que contribui 
 com bibliotecas, frameworks e ferramentas adicionais. Isso significa que você encontrará uma grande 
 quantidade de recursos e suporte disponíveis.
-
-
-
-
-APLICAÇÃO
-
-1 - Desenvolvimento web
-2 - Ciência de dados
-3 - Inteligência artificial e machine learning
-4 - Automatização de tarefas
-5 - Desenvolvimento de jogos

@@ -1,0 +1,7 @@
+APLICAÇÃO
+
+1 - Desenvolvimento web
+2 - Ciência de dados
+3 - Inteligência artificial e machine learning
+4 - Automatização de tarefas
+5 - Desenvolvimento de jogos
