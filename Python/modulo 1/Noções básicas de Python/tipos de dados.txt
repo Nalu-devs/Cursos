@@ -1,0 +1,141 @@
+Em Python, os tipos de dados básicos são as categorias nas quais podemos classificar os valores 
+que utilizamos em nossos programas. Compreender os diferentes tipos de dados é fundamental para 
+trabalhar com variáveis e realizar operações em Python.
+
+INTEIROS (INT)
+
+Os números inteiros são aqueles que não têm parte decimal.
+idade = 25
+quantidade = 100
+
+
+FLUTUANTES (FLOAT)
+
+Os números flutuantes, também conhecidos como números de ponto flutuante, são aqueles que têm
+uma parte decimal.
+preço = 9.99
+altura = 1.75
+
+
+CADEIAS DE TEXTO(STRINGS)
+
+As cadeias de texto, ou simplesmente cadeias, são sequências de caracteres encerradas entre 
+aspas simples ('...') ou duplas ("...").
+nome = "Juan"
+mensagem = '¡Hola, mundo!'
+
+
+BOOLEANOS
+
+Os valores booleanos representam os valores de verdade: True (verdadeiro) e False (falso).
+é_maior_de_idade = True
+tem_desconto = False
+###########Os valores booleanos em Python começam com uma letra maiúscula: True e False.##########
+
+
+
+
+
+
+VARIAVEIS
+
+As variáveis são contêineres que nos permitem armazenar e manipular dados em nossos programas. 
+Você pode pensar em uma variável como uma etiqueta à qual você atribui um valor específico. Em 
+Python, não é necessário declarar o tipo de dados de uma variável com antecedência, pois o Python 
+infere o tipo de dados automaticamente com base no valor atribuído.
+
+
+DECLARAÇÃO E ATRIBUIÇÃO DE VARIAVEIS
+
+As variáveis são contêineres que nos permitem armazenar e manipular dados em nossos programas. 
+Para declarar e atribuir um valor a uma variável em Python, utilizamos o operador de atribuição =. 
+O nome da variável vai à esquerda do operador, e o valor que você deseja atribuir vai à direita
+EXEMPLO:
+
+nome = "Juan"
+idade = 25
+altura = 1.75
+é estudante = True
+
+
+REGRAS PARA NOMEAR VARIAVEIS
+
+1 - Os nomes das variáveis só podem conter letras (a-z, A-Z), números (0-9) e sublinhados (_). 
+Não podem começar com um número.
+2 - Não se pode usar palavras-chave reservadas do Python como nomes de variáveis (por exemplo, 
+if, else, for, while, etc.).
+3 - O Python diferencia maiúsculas de minúsculas, então nome e Nome são variáveis diferentes.
+4 - Recomenda-se usar nomes descritivos para as variáveis, que indiquem claramente seu propósito: 
+nome, idade, total_vendas, etc.
+
+
+
+
+
+
+OPERADORES
+
+Os operadores são símbolos especiais que nos permitem realizar operações em variáveis e valores. 
+Python fornece diferentes tipos de operadores para realizar operações aritméticas, comparações e 
+operações lógicas.
+
+ARITMETICAS
+
+1 - Soma (+): soma dois valores.
+2 - Subtração (-): subtrai o segundo valor do primeiro.
+3 - Multiplicação (*): multiplica dois valores.
+4 - Divisão (/): divide o primeiro valor pelo segundo e devolve um resultado de tipo flutuante.
+5 - Divisão inteira (//): divide o primeiro valor pelo segundo e devolve um resultado de tipo inteiro 
+(a parte decimal é descartada).
+6 - Módulo (%): devolve o resto da divisão entre o primeiro valor e o segundo.
+7 - Exponenciação (**): eleva o primeiro valor à potência do segundo.
+EXEMPLO:
+
+a = 10
+b = 3
+
+soma = a + b   # 13
+subtracao = a - b    # 7
+multiplicacao = a * b    # 30
+divisao = a / b   # 3.333333333
+divisao_inteira = a // b   # 3
+modulo = a % b   # 1
+exponenciacao = a ** b   # 1000
+
+
+DE COMPARAÇÃO
+
+1 - Igual a (==): devolve True se ambos os valores são iguais.
+2 - Diferente de (!=): devolve True se os valores são diferentes.
+3 - Maior que (>): devolve True se o primeiro valor é maior que o segundo.
+4 - Menor que (<): devolve True se o primeiro valor é menor que o segundo.
+5 - Maior ou igual que (>=): devolve True se o primeiro valor é maior ou igual que o segundo.
+6 - Menor ou igual que (<=): devolve True se o primeiro valor é menor ou igual que o segundo.
+EXEMPLO:
+
+a = 10
+b = 3
+
+igual = a == b   # False
+diferente = a != b   # True
+maior que = a > b   # True
+menor que = a < b   # False
+maior ou igual = a >= b   # True
+menor ou igual = a <= b   # False
+
+
+
+LOGICOS
+
+1 - AND (and): devolve True se ambas as condições são verdadeiras.
+2 - OR (or): devolve True se ao menos uma das condições é verdadeira.
+3 - NOT (not): inverte o valor de uma condição, devolve True se a condição é falsa e 
+False se a condição é verdadeira.
+EXEMPLO: 
+
+a = 10
+b = 3
+
+resultado_and = (a > 5) and (b < 5)   # True
+resultado_or = (a > 15) or (b < 5)   # True
+resultado_not = not (a > 5)   # False
