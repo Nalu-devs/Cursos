@@ -1,0 +1,9 @@
+O modelo de rede nesta atividade do modo físico do rastreador de pacotes (PTPM) incorpora muitas 
+das tecnologias que você pode dominar nos cursos da Cisco Networking Academy. Ele representa uma 
+versão simplificada da aparência de uma rede para empresas de pequeno a médio porte.
+
+A maioria dos dispositivos na filial Seward e no data center Warrenton já estão implantados e 
+configurados. Você acabou de ser contratado para revisar os dispositivos e redes implantados. Não 
+é importante que você entenda tudo o que vê e faz nesta atividade. Sinta-se livre para explorar a 
+rede por si mesmo. Se você desejar prosseguir sistematicamente, siga as etapas abaixo. Responda às 
+perguntas da melhor forma possível.

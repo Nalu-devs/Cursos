@@ -1,0 +1,20 @@
+Packet Tracer é uma ferramenta que permite simular redes reais. Ele fornece três menus principais:
+
+Você pode adicionar dispositivos e conectá-los através de cabos ou sem fio.
+
+Você pode selecionar, excluir, inspecionar, rotular e agrupar componentes dentro da rede.
+
+Você pode gerenciar sua rede abrindo uma rede existente/amostra, salvando sua rede atual e 
+modificando seu perfil de usuário ou preferências.
+
+Se você tiver usado qualquer programa, como um processador de texto ou planilha, você já está 
+familiarizado com os comandos do menu Arquivo localizados na barra de menus superior. Os comandos 
+Abrir, Salvar, Salvar Como e Sair funcionam como fariam para qualquer programa, mas há dois comandos 
+que são especiais para o Packet Tracer.
+
+O comando Abrir Amostras exibirá um diretório de exemplos pré-construídos de recursos e configurações
+de vários dispositivos de rede e Internet das Coisas incluídos no Packet Tracer.
+
+O comando Sair e Logout removerá as informações de registro para esta cópia do Packet Tracer e 
+exigirá que o próximo usuário desta cópia do Rastreador de Pacotes faça o procedimento de login 
+novamente.

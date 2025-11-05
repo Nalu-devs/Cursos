@@ -1,0 +1,2 @@
+Para obter e instalar sua cópia do Cisco Packet Tracer, siga as instruções no link abaixo:
+https://www.netacad.com/resources/lab-downloads

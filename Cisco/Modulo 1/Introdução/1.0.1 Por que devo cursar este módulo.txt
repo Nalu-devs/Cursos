@@ -1,0 +1,4 @@
+Parabéns! Este módulo inicia você em seu caminho para uma carreira bem sucedida em Tecnologia da 
+Informação, dando-lhe uma compreensão fundamental da criação, operação e manutenção de redes. Como 
+bônus, você começa a mergulhar em simulações de rede usando Packet Tracer. Nós prometemos que você 
+realmente vai gostar!

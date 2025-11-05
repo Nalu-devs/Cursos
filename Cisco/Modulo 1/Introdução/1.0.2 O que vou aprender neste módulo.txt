@@ -1,0 +1,13 @@
+Título do módulo: As redes de hoje
+Objetivo do módulo: Explicar os avanços em tecnologias de rede modernas.
+
+Titulo do tópico -------------------- Objetivo do tópico
+Redes afetam nossas vidas ----------- Explicar como as redes afetam nossa vida diária
+Componentes de rede ----------------- Explicar como os dispositivos de redes são usados
+Representações e topologia de redes - Explicar representações de rede e como elas são usadas
+Tipos comuns de rede ---------------- Comparar as caracteristicas de tipos comuns de rede
+Conexões com a internet ------------- Explicar como LANs e WANs se interconectam com a internet
+Redes confiáveis -------------------- Descrever os quatro requisitos básicos de uma rede confiável
+Tendencias das redes ---------------- Explicar como tendencias estao mudando a forma como interagimos
+Segurança de rede ------------------- Identificar ameaças e soluções de segurança para todas as redes
+O profissional de TI ---------------- Explicar as oportunidades no campo de rede
