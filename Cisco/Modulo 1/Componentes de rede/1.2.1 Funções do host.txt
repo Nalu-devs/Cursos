@@ -1,0 +1,20 @@
+Todos os computadores que estão conectados a uma rede e participam diretamente da comunicação em 
+rede são classificados como hosts. Os hosts podem ser chamados de dispositivos finais. Alguns hosts 
+também são chamados de clientes. No entanto, o termo hosts refere-se especificamente a dispositivos
+na rede que recebem um número para fins de comunicação. Este número identifica o host dentro de uma 
+rede específica. Este número é chamado de endereço IP (Internet Protocol). Um endereço IP identifica 
+o host e a rede à qual o host está conectado.
+
+Servidores são computadores com software que lhes permite fornecer informações, como e-mail ou 
+páginas da Web, para outros dispositivos finais na rede. Cada serviço exige um software de servidor 
+separado. Por exemplo, um computador exige um software de servidor Web, para que possa prover 
+serviços web à rede. Um computador com software de servidor pode fornecer serviços simultaneamente 
+a muitos clientes diferentes.
+
+Como mencionado anteriormente, os clientes são um tipo de host. Os clientes têm software para 
+solicitar e exibir as informações obtidas do servidor, conforme mostrado na figura.
+
+Um exemplo de software cliente é um navegador, como Chrome ou FireFox. Um único computador pode 
+também executar vários tipos de software cliente. Por exemplo, um usuário pode verificar o e-mail 
+e visualizar uma página da Web enquanto troca mensagens instantâneas e ouve um fluxo de áudio. A 
+tabela lista três tipos comuns de software de servidor.

@@ -1,0 +1,4 @@
+O software cliente e o servidor geralmente são executados em computadores separados, mas também é 
+possível que um computador seja usado para ambas as funções ao mesmo tempo. Em pequenas empresas
+e em casas, muitos computadores funcionam como servidores e clientes na rede. Esse tipo de rede é
+chamado de rede ponto a ponto.

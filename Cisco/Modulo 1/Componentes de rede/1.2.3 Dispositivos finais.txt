@@ -1,0 +1,5 @@
+Os dispositivos de rede com os quais as pessoas estão mais familiarizadas são dispositivos finais. Para distinguit um dispositivo final 
+de outro, cada dispositivo final em uma rede tem um endereço. Quando um dispositivo final inicia a comunicação, ele usa o endereço do 
+dispositivo final de destino para espcificar onde entregar a mensagem
+
+Um dispositivo final é a origem ou o destino de uma mensagem transmitida pela rede.
