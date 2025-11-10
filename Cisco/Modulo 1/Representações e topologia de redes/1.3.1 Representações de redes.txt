@@ -1,0 +1,44 @@
+Arquitetos e administradores de rede devem ser capazes de mostrar como suas redes serão. Eles 
+precisam ser capazes de ver facilmente quais omponentes se conectam a outros componentes, onde 
+eles serão localizados e como eles serão conectados. Os diagramas de redes geralmente usam simbolos 
+para representar os diferentes dispositivos e conexões que compõem uma rede.
+
+DISPOSITIVOS FINAIS:
+1 - Computador desktop
+2 - Laptop
+3 - Impressora
+4 - Telefone IP
+5 - Tablet sem fio
+6 - Dispositivo final de TelePresença
+
+DISPOSITIVOS INTERMEDIÁRIOS:
+1 - Roteador sem fio
+2 - Switch LAN
+3 - Roteador
+4 - Switch multicamadas
+5 - Dispositivo de firewall
+
+MEIOS DE REDE:
+1 - Meios sem fio
+2 - Mídia LAN
+3 - Mídia WAN
+
+Um diagrama fornece uma maneira fácil de entender como os dispositivos se conectam em uma 
+rede grande. Esse tipo de "fotografia" de uma rede é conhecido como um diagrama de topologia. A 
+capacidade de reconhecer as representações lógicas dos componentes físicos de ree é crucial para se 
+permitir visualizar a organização e a operação de uma rede.
+
+Além dessas representações, é utilizada terminologia especializada para descrever como cada um desses 
+dispositivos e mídias se conectam:
+
+PLACA DE INTERFACE DE REDE (NIC):
+Uma NIC conecta fisicamente o dispositivo final à rede.
+
+PORTA FISICA:
+Um conector ou tomada em um dispositivo de rede onde a midia se conecta a um dispositivo final ou 
+outro dispositivo de rede
+
+INTERFACE:
+Portas especializadas em um dispositivo de rede que se conectam a redes individuais. Como os 
+roteadores conectam redes, as portas em um roteador são chamadas de interfaces de rede.
+

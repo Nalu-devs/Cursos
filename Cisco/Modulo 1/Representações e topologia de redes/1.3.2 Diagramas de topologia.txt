@@ -1,0 +1,16 @@
+Os diagramas de topologia são documentação obrigatória para qualquer pessoa que trabalhe com uma 
+rede. Eles fornecem um mapa visual de como a rede está conectada. Existem dois tipos de diagramas
+de topologia: físicos e lógicos.
+
+DIAGRAMA DE TOPOLOGIA FÍSICA:
+Os diagramas de topologia física ilustram a localização física dos dispositivos intermediários e a 
+instalação dos cabos, conforme mostrado na figura. Você pode ver que as salas em que eses 
+dispositivos estão localizados estão rotuladas nesta topologia física.
+anexo: topologia_fisica.odt
+
+
+DIAGRAMA DE TOPOLOGIA LÓGICA
+Diagramas de topologia lógica ilustram dispositivos, portas e o esquema de endereçamento da rede, 
+conforme mostrado na figura. Você pode ver quais dispositivos finais estão conectados a quais 
+dispositivos intermediários e que mídia está sendo usada.
+anexo: topologia_logica.odt
