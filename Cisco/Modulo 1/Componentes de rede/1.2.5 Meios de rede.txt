@@ -1,0 +1,18 @@
+A comunicação transmite através de uma rede na mídia. A mídia fornece o canal pelo qual a mensagem viaja da origem ao destino.
+
+As redes modernas usam principalmente três tipos de mídia para interconectar dispositivos, como mostrado na figura:
+
+FIOS DE METAL DENTRO DE CABOS:
+Os dados são codificados em impulsos elétricos.
+
+FIBRAS DE VIDRO OU PLÁSTICO NOS CABOS(CABO DE FIBRA ÓPTICA)
+Os dados são codificados em pulsos de luz
+
+TRANSMISSÃO SEM FIO
+Os dados são codificados através da modulação de frequências específicas de ondas eletromagnéticas.
+
+Os 4 critérios principais para a escolha da mídia de redes são estes:
+- Qual é a distancia maxima pela qual o meio fisico consegue carregar um sinal com êxito?
+- Qua é o ambiente em que a midia será instalada?
+- Qual é a quantidade de dadps e a que velocidade deve ser transmitida?
+- Qual é o custo do meio físico e da instalação?

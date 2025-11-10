@@ -1,5 +1,7 @@
-Dispositivos intermediários conectam os dispositivos finais idividuais à rede. Eles podem conectar várias redes individuais para formar
-uma internetwork. Eles oferecem conectividade e asseguram que os dados fluam pela rede.
+Dispositivos intermediários conectam os dispositivos finais idividuais à rede. Eles podem conectar 
+várias redes individuais para formar uma internetwork. Eles oferecem conectividade e asseguram que 
+os dados fluam pela rede.
 
-Esses dispositivos intermediários usam o endereço do dispositivo final de destino, em conjunto com as informações sobre as interconexões 
-de rede, para determinar o caminho que as mensagens devem percorrer na rede.
+Esses dispositivos intermediários usam o endereço do dispositivo final de destino, em conjunto com 
+as informações sobre as interconexões de rede, para determinar o caminho que as mensagens devem 
+percorrer na rede.
