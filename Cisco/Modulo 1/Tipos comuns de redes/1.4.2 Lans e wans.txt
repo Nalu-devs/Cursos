@@ -1,0 +1,35 @@
+As infra-estruturas de rede variam muito em termos de:
+- Tamanho de área coberta;
+- Número de usuários conectados;
+- Número e tipos de serviços disponiveis;
+- Área de responsabilidade.
+
+Os dois tipos mais comuns de infraestruturas de rede são as redes locais (LANs) e as redes de longa
+distancia (WANs). Uma LAN é uma infraestrutura de rede que fornece acesso a usuários e dispositivos
+finais em uma pequena área geográfica. Normalmente, uma LAN é usada em um departamento dentro de uma
+empresa, uma casa ou uma rede de pequenas empresas. Uma WAN é uma infraestrutura de rede que fornece
+acesso a outras redes em uma ampla área geográfica, que normalmente pertence e é gerenciada por uma 
+corporação maior ou por um provedor de serviços de telecomunicação
+
+
+LANs:
+Uma LAN é uma infraestrutura de rede que abrange uma pequena área geográfica. As LANs têm detalhes
+especificos:
+- LANs interconectam dispositivos finais em uma área limitada, como uma casa, uma escola, um edificio
+de escritorios ou um campus.
+- Uma LAN é geralmente administrada por uma unica organização ou pessoa. O controle administrativo
+é imposto no nível da rede e governa as politicas de segurança e controle de acesso.
+- As LANs fornecem largura de banda de alta velocidade para dispositivos finais internos e 
+dispositivos intermediarios.
+
+Uma rede que atende uma casa, um prédio pequeno ou campus pequeno é considerado LAN.
+
+
+WANs:
+Uma WAN é uma infraestrutura de rede que abrange uma ampla área geográfica. As WANs geralmente são
+gerenciadas por provedores de serviços (SPs) ou provedores de serviços de Internet(ISPs).
+As WANs têm caracteristicas especificas:
+- As WANs interconectam as LANs em grandes áreas geograficas, como entre cidades, estados, provincias,
+paises ou continentes.
+- As WANs são geralmente administradas por vários prestadores de serviço
+- As WANs geralmente fornecem links de velocidade mais lenta entre as LANs

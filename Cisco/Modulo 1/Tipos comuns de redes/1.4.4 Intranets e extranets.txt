@@ -1,0 +1,14 @@
+Existem outros dois termos semelhantes ao termo internet intranet e extranet.
+
+Intranet é u termo frequentemente usado para se referir a uma conexão privada de LANs e WANs que
+pertence a uma organização. Uma intranet é projetada para ser acessada apenas por membros da
+organização. Exemplos de extranets:
+- Uma empresa que fornece acesso a fornecedores e contratados externos;
+- Um hospital que fornece um sistema de reservas aos medicos para que eles possam marcar consultas
+para seus pacientes;
+- Um escritorio local de educação que está fornecendo informações sobre orçamento e pessoal às escolas
+de seu distrito
+
+Intranet => Apenas a empresa
+Extranet => Fornecedores, clientes, colaboradores
+A internet => O mundo

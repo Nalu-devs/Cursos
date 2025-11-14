@@ -1,0 +1,11 @@
+A internet é uma coleção mundial de redes interconectadas (internetWorks, ou internet para abreviar)
+
+Algumas LANs do exemplo são conectados entre si por meio de uma WAN. As WANs estão conectadas entre si
+As WANs podem se conectar atraves de fio de cobre, cabos de fibra ótica e trasmissões sem fio.
+
+A internet não é de propriedade de nenhum individuo ou grupo. Garantir a comunicação efetiva por essa
+infraestrutura diversa exige a aplicação de tecnologias e protocolos consistentes e geralmente 
+reconhecidos, bem como a cooperação de muitas agencias de administração de redes. Existem organizações
+que foram desenvolvidas para ajudar a manter a estrutura e a padronização de protocolos e processos da
+internet. Essas organizações incluem a internet Engeeing Task Force (iETF), a internet Corporation for
+Assigned Names and Numbers (ICANN) e a internet Architecture Board(IAB), além de muitas outras.

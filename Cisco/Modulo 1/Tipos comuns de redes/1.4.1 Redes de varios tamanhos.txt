@@ -1,7 +1,35 @@
-Existem redes de vários tamanhos. Eles variam de redes simples compostas por dois computadores a redes que conctam milhões de dispositivos
+Existem redes de vários tamanhos. Eles variam de redes simples compostas por dois computadores a 
+redes que conctam milhões de dispositivos
 
-As redes domésticas simples permitem que você compartilhe recursos, como impressoras, documentos, imagens e música, entre alguns dispositivos finais locais
+As redes domésticas simples permitem que você compartilhe recursos, como impressoras, documentos, 
+imagens e música, entre alguns dispositivos finais locais
 
-As redes de pequeno escritório e escritório doméstico (SOHO) permitem que as pessoas trabalhem em casa ou em um escritório remoto. Muitos trabalhadores independentes usam esses tipos de redes para anunciar e vender produtos, pedir suprimentos e se comunicar com os clientes
+As redes de pequeno escritório e escritório doméstico (SOHO) permitem que as pessoas trabalhem em 
+casa ou em um escritório remoto. Muitos trabalhadores independentes usam esses tipos de redes para 
+anunciar e vender produtos, pedir suprimentos e se comunicar com os clientes
 
-Empresas e grandes organizações usam redes para fornecer consolidação, armazenamento e acesso a informações em servidores de rede. As redes fornecem e-mail, mensagens instantâneas e colaboração entre funcionários. Muitas organizações usam a conexão de sua rede à internet para fornecer produtos e serviços aos clintes.
+Empresas e grandes organizações usam redes para fornecer consolidação, armazenamento e acesso a 
+informações em servidores de rede. As redes fornecem e-mail, mensagens instantâneas e colaboração 
+entre funcionários. Muitas organizações usam a conexão de sua rede à internet para fornecer produtos 
+e serviços aos clintes.
+
+A internet é a maior rede existente. Na verdade, o termo internet significa uma "rede de redes". É uma
+coleção de redes publicas e privadas interconectadas.
+
+Em pequenas empresas e residências, muitos computadores funcionam como servidores e clientes na rede. 
+Esse tipo de rede é chamado de rede ponto a ponto.
+
+
+REDES DOMÉSTICAS PEQUENAS:
+As redes domésticas pequenas conectam alguns computadores entre si e com a internet.
+
+REDES PARA PEQUENOS ESCRITÓRIOS E ESCRITÓRIOS DOMÉSTICOS:
+A rede SOHO permite que computadores em um escritório em casa ou em um escritório remoto se conectem a
+uma rede corporativa, ou acessem recursos compartilhados centralizados.
+
+REDES MÉDIAS A GRANDES:
+Redes de médio a grande porte, como as usadas por empresas e escolas, podem ter muitos locais em centenas
+ou milhares de host interconectados.
+
+REDE MUNDIAL:
+A internet é uma rede de redes que conecta centenas de milhões de computadores em todo o mundo.
