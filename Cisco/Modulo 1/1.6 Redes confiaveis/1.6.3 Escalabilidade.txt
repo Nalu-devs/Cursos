@@ -1,0 +1,6 @@
+Uma rede escalável se expande rapidamente para oferecer suporte a novos usuários e aplicativos. Ele 
+fez isso sem degradar o desempenho dos serviços que estão sendo acessados por usuários existentes. A 
+figura mostra como uma nova rede é facilmente adicionada a uma rede existente. Essas redes são 
+escaláveis porque os projetistas seguem padrões e protocolos aceitos. Isso permite que os 
+fornecedores de software e hardware se concentrem em melhorar produtos e serviços sem precisar criar 
+um novo conjunto de regras para operar na rede.
