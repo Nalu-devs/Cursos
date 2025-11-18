@@ -1,1 +1,23 @@
 REDES SEPARADAS TRADICIONAIS
+
+Considere uma escola construida há trinta anos. Naquela época, algumas salas de aula eram cabeadas 
+para a rede de dados, a rede telefônica e a rede de vídeo para televisões. Essas redes separadas não
+puderam se comunicar. Cada rede usava tecnologias diferentes para transmitir o sinal de comunicação.
+Cada rede possuia seu proprio conjunto de regras e padrões para assegurar a comunicação bem sucedida. 
+Vários serviços foram executados em várias redes.
+
+Dispositivos -> meio -> redes de computadores -> mensagem -> Padrão de contrato de regras
+
+Dispositivos -> médio -> redes telefônicas -> mensagem -> Padrão de contrato de regras
+
+Dispositivos -> meio -> redes de transmissão -> mensagem -> Padrão de contrato de regras
+
+
+
+REDES CONVERGENTES
+
+Hoje, as redes separadas de dados, telefone e vídeo convergem. Diferentemente das redes dedicadas, 
+as redes convergentes são capazes de fornecer dados, voz e video entre muitos tipos diferentes de 
+dispositivos na mesma infraestrutura de rede. Essa infraestrutura de rede usa o mesmo conjunto de 
+regras, os mesmos contratos e normas de implementação. As redes de dados convergentes transportam 
+vários serviços em uma rede.
