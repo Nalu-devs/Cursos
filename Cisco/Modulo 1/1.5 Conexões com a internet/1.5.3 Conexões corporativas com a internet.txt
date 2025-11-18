@@ -1,0 +1,24 @@
+As opções de conexão corporativas são diferentes das opções do usuário doméstico. As empresas podem 
+exigir largura de banda maior, largura de banda dedicada e serviços gerenciados. As opções de conexão
+disponiveis diferem dependendo do tipo de provedor de serviços localizado nas proximidades
+
+
+DESCRIÇÃO DOS MATERIAIS:
+
+- LINHA ALUGADA DEDICADA: As linhas alugadas são circuitos reservados na rede do provedor de serviços
+que conectam escritório geograficamente separados para redes privadas de voz e/ou dados. Os circuitos
+são alugados a uma taxa mensal ou anual.
+
+- METRO ETHERNET: Isso às vezes é conehcido como Ethernet WAN. Neste módulo, vamos nos referir a ele 
+como Metro Ethernet. As ethernet metropolitanas estendem a tecnologia de acesso à LAN na WAN. 
+Ethernet é uma tecnologia de LAN que você aprenderá em um módulo posterior.
+
+- DSL DE NEGÓCIOS: O DSL comercial está disponivel em vários formatos. Uma escolha popular é a linha 
+de assinante digital simétrica (SDSL), que é semelhante à versão DSL do consumidor, mas fornece 
+uploads e downloads nas mesmas velocidades altas.
+
+- SATÉLITE: O serviço de satelite pode fornecer uma conexão quando uma solução com fio não está 
+disponivel
+
+
+A escolha de conexão varia com a localização geográfica e da disponibilidade do provedor de serviços

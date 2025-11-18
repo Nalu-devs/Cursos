@@ -1,0 +1,9 @@
+Usuários domésticos, trabalhadores remotos e pequenos escritórios geralmente ecigem uma conexão com 
+um ISP para acessar a internet. As opções de conexão variam muito entre os ISPs e as localizações 
+geográficas. No entanto, as opções populares incluem banda larga a cabo, a banda larga via digital 
+subscriber line (DSL), WANs sem fio e serviços de telefonia móvel celular.
+
+As organizações geralmente precisam acessar outros sites corporativos e a internet. Conexões rápidas 
+são necessárias para dar suporte a serviços comerciais que incluem telefones IP, videoconferência e 
+armazenamento em data center. As controladoras oferecem interconexões de nivel empresarial. Os 
+serciços populares de nivel empresarial incluem DSL, linhas dedicadas e Metro Ethrtnet.

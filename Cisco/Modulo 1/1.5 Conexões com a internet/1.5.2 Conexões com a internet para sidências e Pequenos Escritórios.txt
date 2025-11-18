@@ -1,0 +1,31 @@
+Abaixo vemos opções de conexão comuns para usuários de pequenos escritórios e escritórios domésticos
+
+satelite transmite sinais para escritórios pequenos e ISP que é ligdaa a internet, o funcionario 
+remoto se conecta atraves dessa ligação
+
+
+DESCRIÇÃO DOS MATERIAIS:
+
+- CABO: Normalmente oferecido por provedores de serviços de televisão a cabo, o sinal de dados da 
+internet transmite no mesmo cabo que fornece televisão a cabo. Ele fornece alta largura de banda, 
+alta disponibilidade e uma conexão sempre ativa à internet.
+
+- DSL: As linhas de assinante digital também fornecem alta largura de banda, alta disponibilidade e 
+uma conexão sempre ativa à internet. O DSL funciona utilizando a linha telefônica. Em geral, usuários 
+de pequenos escritórios e escritórios domésticos se conectam com o uso de DSL Assimétrico (ADSL), o 
+que significa que a velocidade de download é maior que a de upload.
+
+- CELULAR: O acesso celular à internet usa uma rede de telefonia celular para se conectar. Onde quer 
+que você possa obter um sinal de celular, você pode obter acesso à internet por celular. O desempenho 
+é limitado pelos recursos do telefone e da torre de celular à qual está conectado.
+
+- SATÉLITE: A disponibilidade do acesso à internet via satélite é um beneficio nas áreas que, de 
+outra forma, não teriam conectividade com a internet. As antenas parabólicas exigem uma linha de 
+visão clara para o satélite.
+
+- CONEXÃO DISCADA(DIAL-UP): Uma opção de baixo custo que usa qualquer linha telefonica e um modem. 
+A baixa largura de banda fornecida por uma conexão de modem dial-up não é suficiente para grandes 
+transferencias de dados, emnbora seja útil para acesso móvel durante a viagem.
+
+
+A escolha de conexão varia com a localização geográfica e da disponibilidade do provedor de serviços
