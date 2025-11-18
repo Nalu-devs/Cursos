@@ -1,0 +1,23 @@
+Você já esteve ocupado trabalhando on-line, e achou que "a internet caiu?"? Como você sabe até agora, 
+a internet não caiu, você acabou de perder sua conexão com ela. Isso é muito frustrante. Com tantas 
+pessoas no mundo confiando no acesso à rede para trabalhar e aprender, é imperativo que as redes 
+sejam confiaveis. Nesse contexto, confiabilidade significa mais do que sua conexão à interner. Este 
+tópico se concentra nos quatro aspectos da confiabilidade da rede.
+
+O papel da rede mudou de uma rede somente de dados para um sistema que permite a conexão de pessoas, 
+dispositivos e informações em um ambiente de rede convergente rico em mídia. Para que as redes 
+funcionem com eficiência e cresçam nesse tipo de ambiente, a rede deve ser construida sobre uma 
+arquitetura de rede padrão.
+
+As redes também suportam uma ampla gama de aplicativos e serviços. Elas devem operar sobre muitos 
+tipos diferentes de cabos e dispositivos, que compõem a infraestrutura fisica. O termo arquitetura 
+de redes, neste contexto, refere-se às tecnologias que apoiam a infraestrutura e os serviços 
+programados e as regras, ou protocolos, que movimentam os dados na rede.
+
+À medida que as redes evoluem, aprendemos que há quatro caracteristicas básicas que os arquitetos de 
+rede devem atender para atender às expectativas do usuário:
+
+1 - Tolerância a falhas;
+2 - Escalabilidade;
+3 - Qualidade de serviço (QoS);
+4 - Segurança.
