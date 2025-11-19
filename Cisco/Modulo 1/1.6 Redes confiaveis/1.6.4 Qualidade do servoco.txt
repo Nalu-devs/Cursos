@@ -1,0 +1,16 @@
+A qualidade do serviço (QoS) é um requisito crescente das redes atualmente. Novos aplicativos 
+disponiveis para usuarios em redes, como transmissões de voz e vídeo ao vivo, criam expectativas
+mais altas em relação à qualidade dos serviços entregues. Você já tentou assistir a um video com
+intervalos e pausas constantes? Conforme o conteudo de video, voz e dados continua a convergir na 
+mesma rede, o QoS se torna um mecanismo essencial para gerenciar os congestionamentos e garantir a 
+entrega confiavel do conteudo para todos os usuarios.
+
+O congestionamento acontece quando a demanda por largura de banda excede a quantidade disponivel. 
+A largura de banda é medida pelo número de bits que podem ser transmitidos em um único segundo, ou
+bits por segundo (bps). Ao tentar uma comunicação simultânea pela rede, a demanda pela largura de 
+banda pode exceder sua disponibilidade, criando um congestinamento na rede.
+
+QUando o volume de tráfego é maior do que o que pode ser transportado pela rede, os dispositivos 
+retêm os pacotes na memória até que os recursos estejam disponiveis para trasmiti-los. Com uma 
+politica de QoS configurada, o roteador é capaz de gerenciar o fluxo do trafego de voz e de dados, 
+priorizando as comunixações por voz se a rede ficar cogestionada.
