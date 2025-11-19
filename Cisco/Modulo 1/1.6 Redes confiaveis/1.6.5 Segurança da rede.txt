@@ -1,0 +1,21 @@
+A infraestrutura da rede, os serviços e os dados contidos nos dispositivos conectados à rede são 
+recursos pessoais e comerciais criticos. Os administradores de rede devem abordar dois tipos de 
+preocupações de segurança de rede:
+segurança da infraestrutura de rede e segurança da informação
+
+Proteger a infraestrutura de rede inclui proteger fisicamente os dispositivos que fornecem 
+conectividade de rede e impedir o acesso não autorizado ao software de gerenciamento que reside 
+neles
+
+Os administradores de rede tambem devem proteger as informações contidas nos pacotes transmitidos 
+pela rede e as informações armazenadas nos dispositivos conectados à rede. para atingir os objetivos 
+de segurança de rede, existem três requisitos principais
+
+CONFIDENCIALIDADE: Confidencialidade dos dados significa que apenas os destinatarios pretendidos e 
+autorizados podem acessar e ler dados
+
+INTEGRIDADE: A integridade dos dados garante aos usuarios que as informaç~eos não foram alteradas na 
+transmissão, da orgim ao destinatarios
+
+DISPONIBILIDADE: A disponibilidade de dados garente aos usuarios acesso oportuno e confiavel aos 
+serviços de dados para usuarios autorizados
