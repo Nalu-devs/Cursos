@@ -1,0 +1,42 @@
+Nenhuma solução única pode proteger a rede da variedade de ameaças existentes. Por esse motivo, a 
+segurança deve ser implementada em várias camadas, com uso de mais de uma solução. Se um componente
+de segurança falhar na identificação e proteção da rede, outros poderão ter êxito.
+
+Uma implementação de segurança para redes domésticas é normalmente bastante básica. Normalmente, 
+você implementa nos dispositivos finais, bem como no ponto de conexão com a Internet, e pode até 
+confiar nos serviços contratados pelo ISP.
+
+Estes são os componentes básicos de segurança para uma rede doméstica ou de pequeno escritório:
+
+Antivírus e antispyware - Esses aplicativos ajudam a proteger os dispositivos finais contra a 
+infecção por software malicioso.
+
+Filtragem por firewall - A filtragem por firewall bloqueia o acesso não autorizado dentro e fora da
+rede. Isso pode incluir um sistema de firewall baseado em host que impede o acesso não autorizado ao 
+dispositivo final ou um serviço básico de roteador doméstico para impedir o acesso não autorizado do 
+mundo externo à rede.
+
+Em contrapartida, a implementação de segurança para uma rede corporativa geralmente consiste em 
+vários componentes incorporados à rede para monitorar e filtrar o tráfego. Idealmente, todos os 
+componentes trabalham juntos, o que minimiza a manutenção e melhora a segurança. Redes maiores e 
+redes corporativas usam antivírus, antispyware e filtragem por firewall, mas também têm outros 
+requisitos de segurança:
+
+Sistemas de firewall dedicados - Eles fornecem recursos de firewall mais avançados que podem filtrar 
+grandes quantidades de tráfego com mais granularidade.
+
+Listas de controle de acesso (ACL) - Elas filtram ainda mais o acesso e o encaminhamento de tráfego 
+com base em endereços e aplicativos IP.
+
+Sistemas de prevenção de intrusões (IPS) - Identificam ameaças de rápida disseminação, como ataques
+de dia zero ou hora zero.
+
+Redes privadas virtuais (VPN) - Fornecem acesso seguro a uma organização para trabalhadores remotos.
+
+Os requisitos de segurança de rede devem considerar o ambiente, os vários aplicativos e os requisitos
+de computação. Ambientes domésticos e comerciais devem poder proteger seus dados e, ao mesmo tempo, 
+permitir a qualidade do serviço que os usuários esperam de cada tecnologia. Além disso, as soluções 
+de segurança implementadas devem ser adaptáveis às tendências de crescimento e variáveis da rede.
+
+O estudo das ameaças à rede e de técnicas de mitigação é iniciado com um claro entendimento da 
+infraestrutura de roteamento e de comutação usada para organizar serviços de rede.
