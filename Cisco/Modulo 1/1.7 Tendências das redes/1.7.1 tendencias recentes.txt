@@ -1,1 +1,8 @@
-As redes, como todo
+As redes, como todo resto, continuam a mudar. Existem algumas tendencias em rede que você, como estudante da NetAcad, deve conhecer.
+
+À medida que novas tecnologias e dispositivos do usuário final chegam ao mercado, as empresas e os consumidores devem continuar se ajustando a esse ambiente em constante mudança. Existem várias tendencias de rede que afetam organizações e consumidores:
+
+1 - BYOD(Bring Your Own Device);
+2 - Colaboração on-line;
+3 - Comunicação por video;
+4 - Computação em nuvem.
