@@ -1,0 +1,22 @@
+Como aluno da NetAcad, você já pode ter uma carreira em TI ou ainda está se educando para se preparar 
+para sua carreira. Em ambos os casos, é bom saber sobre as habilidades necessárias para corresponder 
+aos tipos de trabalhos disponíveis em TI.
+
+A função e as habilidades necessárias de engenheiros de rede estão evoluindo e são mais importantes 
+do que nunca. A certificação Cisco Certified Network Associate (CCNA) demonstra que você tem 
+conhecimento de tecnologias fundamentais e garante que você permaneça relevante com os conjuntos de 
+habilidades necessárias para a adoção de tecnologias de próxima geração.
+
+Um CCNA consolidado e atualizado para engenheiros de rede é composto por três cursos e um exame que 
+abrange os tópicos fundamentais de todas as tecnologias de rede. O novo CCNA se concentra nos tópicos
+de fundação e segurança de IP, além de programação sem fio, virtualização, automação e rede.
+
+Existem novas certificações DevNet nos níveis associado, especialista e profissional, para validar 
+suas habilidades de desenvolvimento de software.
+
+Existem opções de certificação especializadas para validar suas habilidades de acordo com sua função 
+e interesses. Isso inclui a certificação Cisco Enterprise Advanced Infrastructure Specialist.
+
+Pode começar onde quiser. Não há pré-requisitos para começar a obter sua certificação de nível 
+associado, especialista, profissional ou especialista. Créditos de educação continuada para 
+recertificação e desenvolvimento contínuo estão agora disponíveis para o CCNA.
