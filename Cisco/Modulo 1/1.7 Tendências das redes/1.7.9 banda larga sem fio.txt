@@ -1,0 +1,25 @@
+Em muitas áreas onde cabo e DSL não estão disponíveis, a rede sem fio pode ser usada para se conectar
+à Internet.
+
+
+PROVEDOR DE SERVIÇOS DE INTERNET SEM FIO
+
+Um provedor de serviços de Internet sem fio (WISP) é um provedor de serviços de Internet que conecta
+assinantes a um ponto de acesso ou hot spot designado usando tecnologias sem fio semelhantes 
+encontradas em redes locais sem fio domésticas (WLANs). Os WISPs são mais comumente encontrados em 
+ambientes rurais onde DSL ou serviços a cabo não estão disponíveis.
+
+Embora uma torre de transmissão separada possa ser instalada para a antena, normalmente a antena está
+conectada a uma estrutura elevada existente, como uma torre de água ou uma torre de rádio. Uma antena
+parabólica pequena ou grande é instalada no teto do assinante dentro do alcance do transmissor WISP.
+A unidade de acesso do assinante é conectada à rede com fio dentro de casa. Da perspectiva de usuário
+doméstico, a configuração não é muito diferente do serviço de cabo ou DSL. A principal diferença é a 
+conexão da casa para o ISP ser sem fio em vez de um cabo físico.
+
+
+SERVIÇO DE BANDA LARGA SEM FIO
+
+Outra solução sem fio para casas e pequenas empresas é a banda larga sem fio. Esta solução usa a 
+mesma tecnologia celular que um telefone inteligente. Uma antena é instalada fora da residência, 
+fornecendo conectividade com ou sem fio para dispositivos na casa. Em muitas áreas, a banda larga sem
+fio domestica está competindo diretamente com serviços DSL e a cabo.
