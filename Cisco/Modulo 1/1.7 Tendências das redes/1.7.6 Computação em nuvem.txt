@@ -1,0 +1,47 @@
+A computação em nuvem é uma das maneiras pelas quais acessamos e armazenamos dados. A computação em 
+nuvem nos permite armazenar arquivos pessoais, até fazer backup de uma unidade inteira em servidores
+pela internet. Aplicativos como processamento de texto e edição de fotos podem ser acessados usando 
+a nuvem.
+
+Para as empresas, a computação em nuvem amplia os recursos de TI sem exigir investimento em nova 
+infraestrutura, treinamento de novas equipes ou licenciamento economicamente a qualquer dispositivos 
+que esteja em qualquer lugar do mundo, sem comprometer a segurança ou a função.
+
+A computação em nuvem é possivel devido aos data centers. Os data centers são instalações usadas para
+hospedar sistemas de computador e componentes associados. Um data center pode ocupar uma sala de um
+edificio, um ou mais normalmente são muito caros de construir e manter. Por esse motivo, apenas as 
+grandes empresas usam data centers construidos de forma privada para abrigar os dados e fornecer 
+serviços aos usuários. Empresas de pequeno porte que não podem arcar com a manutenção de seu próprio
+data center podem reduzir os custos gerais de propriedade ao alugar um servidor e armazenar serviços 
+em uma empresa de data center maior na nuvem.
+
+Para segurança, confiabilidade e tolerancia a falhas, os provedores de nuvem geralmente armazenam 
+dados em data centers distribuidos. Em vez de armazenar tiodos os dados de uma pessoa ou uma 
+organização em um data center, eles são armazenados em vários data centers em locais diferente.
+
+Existem quatro tipos principais de nuvem: nuvens publicas, nuvens privadas, nuvens hibridas e nuvens 
+da comunidade:
+
+1 - NUVENS PUBLICAS: Aplicativos e serviços baseados em nuvem oferecidos em uma nuvem pública são 
+criados disponivel para a população em geral. Os serviços podem ser gratuitos ou não oferecidos em
+um modelo de pagamento por uso, como pagar por armazenamento on-line. A nuvem pública usa a intenet
+para fornecer serviços.
+
+2 - NUVENS PRIVADAS: Os aplicativos e serviços baseados em nuvem oferecidos em uma nuvem privada são 
+destinado a uma organização ou entidade especifica, como um governo. A nuvem privada pode ser 
+configurada usando o rede, embora isso possa ser caro para construir e manter. Uma nuvm privada 
+também pode ser gerenciada por uma organização externa com acesso estrito segurança.
+
+3 - NUVENS HIBRIDAS: Uma nuvem hibrida é composta de duas ou mais nuvens (exemplo: parte privada, 
+parte publica), onde cada parte permanece um objeto distinto, mas ambos são conectado usando uma 
+única arquitetura. Individuos em uma nuvem hibrida seria capaz de ter graus de acesso a vários 
+serviços com base em direitos de acesso do usuário.
+
+4 - NUVENS COMUNITÁRIAS: Uma nuvem de comunidade é criada para uso exclusivo por entidades ou 
+organizações específicas. As diferenças entre nuvens públicas e nuvens da comunidade são as 
+necessidades funcionais que foram personalizadas para a comunidade. Por exemplo, organizações de 
+saúde devem manter a conformidade com políticas e leis (por exemplo, HIPAA) que exigem 
+confidencialidade e autenticação especial. As nuvens comunitárias são usadas por várias organizações 
+que têm necessidades e preocupações semelhantes. As nuvens comunitárias são semelhantes a um ambiente 
+de nuvem pública, mas com níveis definidos de segurança, privacidade e até mesmo conformidade 
+normativa de uma nuvem privada.
