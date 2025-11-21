@@ -1,0 +1,11 @@
+A rede Powerline para redes domesticas usa a fiação elétrica existente para conectar dispositivos.
+
+Usando um adaptador padrão powerline, os dispositivos podem se conectar à LAN onde quer que haja uma 
+tomada elétrica. Nenhum cabo de dados precisa ser instalado, e há pouca ou nenhuma eletricidade 
+adicional usada. Usando a mesma fiação que fornece a eletricidade, a rede powerline envia informações
+ao enviar dados em determinadas frequências.
+
+A rede Powerline é especialmente útil quando os pontos de acesso sem fio não conseguem alcançar todos
+os dispositivos em casa. A rede Powerline não substitui o cabeamento dedicado em redes de dados. No 
+entanto, é uma alternativa quando os cabos da rede de dados ou as comunicações sem fio não são 
+possíveis ou eficazes.
