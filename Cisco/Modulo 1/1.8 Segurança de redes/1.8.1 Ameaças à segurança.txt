@@ -1,0 +1,42 @@
+Você, sem dúvida, ouviu ou leu notícias sobre uma rede da empresa sendo violada, dando aos atores 
+ameaçadores acesso às informações pessoais de milhares de clientes. Por esse motivo, a segurança de 
+rede sempre será uma prioridade máxima dos administradores.
+
+A segurança da rede é parte integrante da rede de computadores, independentemente de a rede estar em
+uma casa com uma única conexão à Internet ou se é uma corporação com milhares de usuários. A 
+segurança da rede deve considerar o ambiente, bem como as ferramentas e os requisitos da rede. Ele 
+deve poder proteger os dados e, ao mesmo tempo, permitir a qualidade do serviço que os usuários 
+esperam da rede.
+
+A proteção de uma rede envolve protocolos, tecnologias, dispositivos, ferramentas e técnicas para 
+proteger dados e mitigar ameaças. Vetores de ameaça podem ser internos ou externos. Hoje, muitas 
+ameaças à segurança de rede externa se originam da Internet.
+
+Existem várias ameaças externas comuns às redes:
+
+Vírus, worms e cavalos de Tróia – Eles contêm software ou código malicioso em execução no dispositivo
+do usuário.
+
+Spyware e adware – Estes são tipos de software que são instalados no dispositivo de um usuário. O 
+software, em seguida, coleta secretamente informações sobre o usuário.
+
+Ataques de dia zero – Também chamados de ataques de hora zero, ocorrem no primeiro dia em que uma 
+vulnerabilidade se torna conhecida.
+
+Ataques de ator de ameaça – Uma pessoa mal-intencionada ataca dispositivos do usuário ou recursos de 
+rede.
+
+Ataques de negação de serviço – Esses ataques atrasam ou travam aplicativos e processam em um 
+dispositivo de rede.
+
+Interceptação de dados e roubo – Esse ataque captura informações privadas da rede de uma organização.
+
+Roubo de identidade – Esse ataque rouba as credenciais de login de um usuário para acessar 
+informações privadas.
+
+Também é importante considerar ameaças internas. Há muitos estudos que mostram que as violações mais
+comuns ocorrem por causa de usuários internos da rede. Isso pode ser atribuído a dispositivos
+perdidos ou roubados, mau uso acidental por parte dos funcionários e, no ambiente comercial, até 
+mesmo funcionários mal-intencionados. Com as estratégias BYOD em evolução, os dados corporativos 
+ficam muito mais vulneráveis. Portanto, ao desenvolver uma política de segurança, é importante 
+abordar ameaças de segurança externas e internas.
