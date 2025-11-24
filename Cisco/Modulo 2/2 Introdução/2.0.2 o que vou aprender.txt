@@ -1,0 +1,14 @@
+Título do módulo: Switch básico e configuração de dispositivo final
+
+Objetivo do módulo: Implementar as configurações iniciais, incluindo senhas, endereçamento IP e 
+parâmetros de gateway padrão em um switch de rede e em dispositivos finais.
+
+Titulo do tópico                    | Objetivo do tópico
+Acesso ao Cisco IOS                 | Explicar como acessar um dispositivo Cisco IOS para fins de configuração
+Navegação IOS                       | Explicar como navegar no Cisco IOS para configurar os dispositivos de rede 
+A estrutura de comandos             | Descrever a estrutura de comandos do software Cisco IOS
+Configuração básica de dispositivos | Configurar um dispositivo Cisco IOS usando CLI
+Salvar configurações                | Usar os comandos do IOS para salvar a configuração atual
+Portas e endereços                  | Explicar como os dispositivos se comunicam no meio físico de rede
+Configurar endereços IP             | Configurar um dispositivo de host com um endereço IP
+Verificar a conectividade           | Verificar a conectividade entre dois dispositivos finais 

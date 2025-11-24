@@ -1,0 +1,14 @@
+Bem-vindo ao Switch básico e à Configuração do Dispositivo Final!
+
+Como parte de sua carreira em rede, talvez seja necessário configurar uma nova rede ou manter e 
+atualizar uma rede existente. Em ambos os casos, você configurará switches e dispositivos finais para
+que eles estejam seguros e funcionem de forma eficaz com base em seus requisitos.
+
+Fora da caixa, switches e dispositivos finais vêm com alguma configuração geral. Mas para sua rede
+específica, switches e dispositivos finais exigem suas informações e instruções específicas. Neste 
+módulo, você aprenderá como acessar dispositivos de rede Cisco IOS. Você aprenderá os comandos 
+básicos de configuração e os usará para configurar e verificar um dispositivo Cisco IOS e um 
+dispositivo final com um endereço IP.
+
+Claro, há muito mais na administração de rede, mas nada disso pode acontecer sem primeiro configurar 
+switches e dispositivos finais. Vamos começar!
