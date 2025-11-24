@@ -1,0 +1,32 @@
+Um switch encaminhará o trafego por padrão e não precisa ser explicitamente configurado para operar.
+Por exemplo, dois hosts configurados conectados ao mesmo novo switch seriam capazes de se comunicar.
+
+Independentemente do comportamento paadrão de um novo switch, todos os switches devem ser configurados
+e protegidos.
+
+__________________________________________________________________________________________________________
+Método  | Descrição
+__________________________________________________________________________________________________________
+        | Esta é uma porta de gereciamneto fisico que fornece acesso fora de banda a um dispositivo Cisco.
+        | O acesso out-of-band refere-se ao acesso por meio de um canal dedicado de gerenciamento que é
+Console | utilizado somente ára fins de manutenção do dispositivo. A vantagem de usar uma porta do console
+        | é que o dispositivo está acessivel mesmo que nenhum serviço de rede esteja configurado, como a
+        | configuração inicial. Um computador executando um software de emulação de terminal e um cabo de
+        | console especial para se conectar ao dispositivo são necessários para uma conexão de console.
+___________________________________________________________________________________________________________
+        | O SSH é um método dentro da banda e recomendado para estabelecer remotamente uma conexão CLI
+Secure  | segura, atraves de uma interface virtual, atraves de uma rede. Ao contrario de uma conexão de
+Shell   | console, as conexões SSH requerem serviços de rede ativos no dispositivo, incluindo uma interface
+(SSH)   | ativa configurada com um endereço. A maioria das versões do Cisco IOS inclui um servidor SSH e um
+        | cliente SSH que podem ser usados para estabelecer sessões de SSH com outros dispositivos.
+___________________________________________________________________________________________________________
+        | O Telnet é um método inseguro em banda para estabelecer remotamente uma sessão de CLI, por meio
+        | de uma interface virtual, por uma rede. Ao contrário do SSH, o Telnet não fornece uma conexão 
+Telnet  | segura e criptografada e só deve ser usado em um ambiente de laboratorio. A autenticação de
+        | usuario, as senhas e os comandos são enviados pela rede como texto simples. A melhor prática é
+        | usar SSH em vez de Telnet. O Cisco IOS inclui um servidor Telnet e um cliente Telnet.
+____________________________________________________________________________________________________________
+
+OBS: Alguns dispositivos, como roteadores, tambem podem suportar uma porta auxiliar herdada usada para estabelecer
+uma sessão CLI remotamente por uma conexão telefônica usando um modem. De modo semelhante a uma conexão de console
+a porta AUX é do tipo fora de banda e não requer serviços de rede para ser configurada ou estar disponivel.

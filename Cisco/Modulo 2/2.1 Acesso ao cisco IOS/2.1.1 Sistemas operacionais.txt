@@ -1,0 +1,23 @@
+Todos os dispositivos finais e de rede exigem um sistema operacional (SO). A parte
+do sistema operacional que interage diretamente com o hardware do computador é 
+conhecida como kernel. A parte que tem interface com aplicações e o usuário é conhecida
+como shell. O usuário pode interagir com a shell por meio de uma interface de linha de
+comando CLI (interface de linha de comando) ou uma interface grafica de usuario GUI
+(interface grafica de usuario)
+
+Shell: A interface de usuário que permite que os usuários soliditem tarefas especificas
+do computador. Essas solicitações poder ser feitas por meio da interface CLI ou GUI.
+
+Kernel: Comunica-se entre os hardware e o software de um computador e gerencia como os
+recursos de hardware são usados para atender aos requisitos de software
+
+Hardware: A parte fisica de um computador, incluindo os componentes eletrônicos subjacentes
+
+Ao usar uma CLI, o usuario interage diretamente com o sistema em um ambiente baseado em
+texto digitando comandos no teclado em um prompt de comandos. O sistema executa o comando,
+podendo gerar uma saida de texto. A CLI requer muito pouca sobrecarga para operar. No entanto
+exige que o usuário tenha conhecimento da estrutura de comando subjacente que controla o sistema
+
+analyst@secOps ~]$ ls
+Desktop Downloads lab.support.files second_drive
+[analyst@secOps ~]$

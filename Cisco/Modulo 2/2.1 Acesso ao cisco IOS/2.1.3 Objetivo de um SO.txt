@@ -1,0 +1,20 @@
+Uma GUI como windows, macO8, Linux KDE, Apple IOS ou Android permite que o usuário
+
+Os SP de um rede são semelhantes a um SO de PCs. Por meio de uma GUI um sistema
+operacional de PC permite que o usuário faça o seguinte:
+
+- Utilizar um mouse para fazer seleções e executar programas;
+- Inserir texto e comandos baseados em texto;
+- Exibir a saida em um monitor.
+
+Um SO de rede baseado em CLI (por exemplo, o Cisco IOS em um switch ou roteador)
+permite que um tecnico de rede faça o seguinte:
+
+- Use um teclado para executar programas de rede baseados na CLI;
+- Use um teclado para inserir texto e comandos baseados em texto;
+- Exibir a saida em um monitor.
+
+Os dispositivos de rede Cisco executam determinadas versões do Cisco IOS. A versão
+do IOS depende do tipo de dispositivo usado e dos recursos necessários. Embora todos
+os dispositivos venham com o IOS e um conjunto de recursos padrão, é possivel atualizar
+a versão do IOS ou do conjunto de recursos para obter mais capacidades.

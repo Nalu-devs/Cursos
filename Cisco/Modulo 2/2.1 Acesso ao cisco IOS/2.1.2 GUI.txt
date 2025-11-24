@@ -1,0 +1,18 @@
+Uma GUI como windows, macO8, Linux KDE, Apple IOS ou Android permite que o usuário
+interaja com o sistema usando um ambiente de icones graficos, menus, janelas. O exemplo
+da GUI é mais fácil de usar e requer menos conhecimento da estrutura de comando 
+subjacente que controla o sistema. Por esse motivo, a maioria dos usuários depende de
+ambientes da GUI.
+
+No entanto, nem sempre as GUIs podem fornecer todos os recursos disponiveis com a CLI.
+As GUIs tambem podem falhar, congelar ou simplesmente não funcionar como especificado. Por
+esses motivos, os dispositivos de rede geralmente são acessados por meio de uma CLI. A CLI
+consome menos recursos e é muito estável, em comparação com uma GUI.
+
+A familia de SO de rede usados em muitos dispositivos Cisco é denominada Cisco Internetwork
+Operating System (IOS). O Cisco IOS é usado em muitos roteadores e switches Cisco, 
+independentemente do tipo ou tamanho do dispositivo. Cada roteador de dispositivo ou tipo de
+switch usa uma versão diferente do Cisco IOS. Outros SO Cisco incluem IOS XE, IOS XR e NX-OS.
+
+OBS: O SO nos roteadores domesticos geralmente é chamado firmware. O metodo mais comum para
+configurar um roteador residencial é usando uma GUI pelo navegador.
