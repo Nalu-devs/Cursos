@@ -1,0 +1,19 @@
+Para configurar o dispositivo, o usuario deve entrar no modo de configuração global, geralmente
+chamado de modo de configuração global.
+No modo de config global, são feitas alterações na configuração via CLI que afetam o funcionamento
+do dispositivo como um todo. O modo de configuração global é identificado por um prompt que termina
+com (config)# apó o nome do dispositivo, como por exemplo: Switch(config)#.
+
+Esse modo é acessado antes de outros modos de configuração especificos. No modo de configuração
+global, o usuario pode inserir diferentes modos de subconfiguração. Cada um desses modos permite a
+configuração de uma parte particular ou função do dispositivo IOS. Dois modos comuns de subconfiguração
+incluem:
+
+1 - Modo de configuração de linha: Usado para configurar o acesso ao console, SSH, Telnet ou AUX.
+2 - Modo de configuração da interface - Usado para configurar uma porta de switch ou interface de rede
+do roteador.
+
+Quando a CLI é usada, o modo é identificado pelo prompt da linha de comandos exclusivo para esse modo.
+Por padrão, todo prompt começa com após o nome do dispositivo. Após o nome, o restante do prompt indica
+o modo. Por exemplo, o prompt padrão para o modo de configuração de linha é Switch(config-line)# e o
+prompt padrão para o modo de configuração da interface é Switch(config-if)#

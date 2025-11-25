@@ -1,0 +1,27 @@
+O uso do CLI pode fornecer ao administrador de rede controle e flexibilidade mais precisos do que usar a GUI.
+
+Como recurso de segurança o software Cisco IOS separa o acesso de gerenciamento nestes dois modos de comando:
+
+MODO EXEC DE USUARIO - Este modo possui recursos limitados, mas é util para operações básicas. Ele permite apenas
+um número limitado de comando de monitoramento básico, mas não permite a execução de nenhum comando que possa alterar
+a configuração do dispositivo. O modo EXEC usuario é identificado pelo prompt da CLI que termina com o simbolo >.
+
+MODO EXEC PRIVILEGIADO - Para executar comandos de configuração, um administrador de rede deve acessar o modo EXEC
+privilegiado. Modos de configuração mais altos, como o modo de configuração global, só podem ser acessados do modo EXEC
+privilegiado. O modo EXEC privilegiado pode ser identificado pelo prompt que termina com o simbolo #.
+
+Modo de comando | descrição                     | aviso padrão do dispositivo
+______________________________________________________________________________
+                | O modo permite acesso a       |
+                | apenas um número limitados    |
+Modo exec user  | de comandos de monitoramento  |Switch>
+                | basico. É geralmente chamado  |Router>
+                | de modo "view-only.           |
+______________________________________________________________________________
+                | O modo permite acesso a todos |
+                | os comandos e recursos. O     |
+Modo exec       | usuario pode usar qualquer    |Switch#
+privilegiado    | comando de monitoramento e    |Router#
+                | executar a configuração e     |
+                | comandos de gerenciamento     |
+______________________________________________________________________________
