@@ -1,0 +1,31 @@
+Varios comandos são usados para entrar e sair dos prompts de comando. Para passar do modo EXEC do
+usuário para o modo EXEC privilegiado, use o comando enable. Use o comando disable do modo EXEC
+privilegiado para retornar ao modo EXEC usuario.
+
+Obs: O modo EXEC privilegiado as vezes é chamado de enable mode.
+
+Para entrar e sair do modo de configuração global, use o comando configure terminal privilegiado do
+modo EXEC. Praa retornar ao modo EXEC privilegiado, digite o comando exit global config mode.
+
+Existem muitos modos diferentes de subconfiguração. Por exemplo, para entrar no modo de subconfiguração
+de liha, use o comando line seguido pelo tipo e numero da linha de gerenciamento que deseja acessar. Use
+o comando exit para sair de um modo de subconfiguração e retornar ao modo de configuração global.
+
+Switch(config)# line console 0
+Switch(config-lin)# exit
+Switch(config)#
+
+Para mover de qualquer modo de subconfiguração do modo de configuração global para o modo um passo acima na
+hierarquia de modos, digite o comando exit
+
+Para passar de qualquer modo de subconfiguração para o modo EXEC privilegiado, insira o comando end ou a
+combinação das teclas Ctrl+Z.
+
+Switch(config-line)# end
+Switch#
+
+Você também pode mover diretamente de um modo de subconfiguração para outro. Observe como depois de selecionar
+uma interface, o prompt de comando muda de (config-line)# para (config-if)#.
+
+Switch(config-line)# interface FastEthernet 0/1
+Switch(config-if)#
