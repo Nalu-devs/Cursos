@@ -29,3 +29,52 @@ uma interface, o prompt de comando muda de (config-line)# para (config-if)#.
 
 Switch(config-line)# interface FastEthernet 0/1
 Switch(config-if)#
+
+
+
+
+
+
+
+EXEMPLO DE APLICAÇÃO:
+
+Entrar no modo EXEC privilegiado:
+Switch> enable
+
+Retornar ao modo EXEC do usuario:
+Switch# disable
+
+Modo privilegiado de novo:
+Switch> enable
+
+Entrar no modo de configuração global:
+Switch# configure terminal
+
+Saia do modo de configuração global e retorne ao modo EXEC privilegiado:
+Switch(config)# exit
+
+Configuração global de novo:
+Switch# configure terminal
+
+Modo de subconfiguração de linha para a porta do console:
+Switch(config)# line console 0
+
+Retornar ao modo de configuração global:
+Switch(config)# exit
+
+Modo de subconfiguração de linha VTY:
+Switch(config)# line vty 0 15
+
+Retornar ao modo de configuração global:
+Switch(config)# exit
+
+Modo de subconfiguração da interface da VLAN 1:
+Switch(config)# interface vlan 1
+
+Modo de confiuração da interface, altere para o modo de subconfiguração do console de linha:
+Switch(config-if)# line console 0
+
+Retornar para o modo EXEC privilegiado
+Switch(config-line)# end
+
+Fim da navegação dos modos de linha de comando usando IOS
