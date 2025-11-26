@@ -1,0 +1,35 @@
+Um comando pode exigir um ou mais argumentos. Para determinar as palavras-chave e os argumentos
+necessários para um comando, consulte a sintaxe de comando. A sintaxe fornece o padrão, ou formato,
+que deve ser usado ao inserir um comando.
+
+Conforme identificado na tabela, o texto em negrito indica comandos e palavras-chave inseridas
+conforme mostrado. O texto em itálico indica um argumento para o qual o usuario fornece o valor.
+
+Negrito = O texto em negrito indica comandos e palavras-chave que você digita literalmente como mostrado
+Itálico = O texto em itálico indica argumentos para os quais você fornece valores.
+[X] = Colchetes indicam um elemento opcional (palavra-chave ou argumento)
+{X} = Chaves indicam um elemento necessário (palavra-chave ou argumento)
+[X{y|z}] = Chaves e linhas verticais entre colchetes indicam uma necessidade dentro de um elemento opcional
+espaços são usados para delinear claramente partes do comando.
+
+Por exemplo, a sintaxe para usar o comando description é description string. O argumento é um valor string
+fornecido pelo usuario. O comando description é normalmente usado para identificar a finalidade de uma
+interface. Por exemplo, digitando o comando, description Connects to the main headquarter office switch,
+descreve onde o outro dispositivo está no final da conexão.
+
+Os exemplos a seguir demonstram as convenções usadas para documentar e utilizar comandos do IOS:
+
+- ping ip-address - O comando ping e o argumento definido pelo usuario é o endereço-IP do dispositivo de
+destino. Por exemplo ping ping 10.10.10.5
+
+- traceroute ip-address - O comando é traceroute e o argumento definido pelo usuario é o endereço-IP do
+dispositivo de destino. Por exmeplo, traceroute 192.168.254.254
+
+Se um comando é complexo com varios argumentos, você pode ve-lo representado assim:
+
+Switch(config-if)# switchport port-security aging {static|time time|type{absolute|inactivity}}
+
+O comando será normalmente seguido temos uma descrição detalhada do comando e cada argumento.
+
+A Referência de Comandos do Cisco IOS é a fonte definitiva de informações para um determinado 
+comando do IOS.

@@ -1,0 +1,68 @@
+A CLI do IOS fornece teclas de atalho e atalhos que facilitam a configuração, o monitoramento e a 
+solução de problemas.
+
+Os comandos e as palavras-chave podem ser abreviados para o número mínimo de caracteres que 
+identifica uma seleção exclusiva. Por exemplo, o comando configure pode ser reduzido para conf, 
+porque configure é o único comando que começa com conf. Uma versão ainda mais curta,con, não 
+funcionará porque mais de um comando começa com con. Palavras-chave também podem ser abreviadas.
+
+A tabela lista os pressionamentos de teclas para aprimorar a edição da linha de comando.
+
+Tab = Completa um nome de comando parcialmente digitando
+_____________________________________________________________________________________________________
+Backspace = Apaga o caracter à esquerda do cursor
+_____________________________________________________________________________________________________
+Ctrl+D = Apaga o caractere no cursor
+_____________________________________________________________________________________________________
+Ctrl+K = Apaga todos os caracteres do cursos até o final da linha de comando
+_____________________________________________________________________________________________________
+Esc D = Apaga todos os caracteres do cursor até o final da palavra
+_____________________________________________________________________________________________________
+Ctrl+U ou Ctrl+X = Apaga todos os caracteres do cursor de volta ao inicio da linha de comando
+_____________________________________________________________________________________________________
+Ctrl+W = Apaga a palavra à esquerda do cursor
+_____________________________________________________________________________________________________
+Ctrl+A = Move o cursor para o inicio da linha
+_____________________________________________________________________________________________________
+Seta esquerda ou Ctrl+B = Movem o cursor um caractere para a esquerda
+_____________________________________________________________________________________________________
+Esc B = Move o cursor uma palavra para a esquerda
+_____________________________________________________________________________________________________
+Esc F = Move o cursor uma palavra para a direita
+_____________________________________________________________________________________________________
+seta para a direita ou Ctrl+F = Movem o cursor um caracter para a direita
+_____________________________________________________________________________________________________
+Ctrl+E = Move o cursor para o final da linha de comando
+_____________________________________________________________________________________________________
+Seta para cima ou Ctrl+P = Recupera os comandos no buffer do historico, começando com o mais recente
+_____________________________________________________________________________________________________
+Down Arrow ou Ctrl+N = Move para a proxima linha do historico do buffer
+_____________________________________________________________________________________________________
+Ctrl+R ou Ctrl+I ou Ctrl+L = Exibe novamente o prompt do sistema e a linha de comando depois que uma
+mensagem do console é exibida
+_____________________________________________________________________________________________________
+
+Observação: Embora a chave Delete exclua normalmente o caractere à direita do prompt, a estrutura
+de comando do IOS não reconhece a chave Delete.
+
+Quando uma saída de comando produz mais texto do que pode ser exibido em uma janela de terminal, 
+o IOS exibirá um “--More--” prompt. A tabela a seguir descreve os pressionamentos de teclas que 
+podem ser usados quando esse prompt é exibido.
+
+Tecla enter = Exibe a proxima linha
+_____________________________________________________________________________________________________
+Barra de espaço = Exibe a proxima teclas
+_____________________________________________________________________________________________________
+Qualquer outra chave = Encerra a sequencia de exibição retornando ao modo EXEC privilegiado
+_____________________________________________________________________________________________________
+
+Esta tabela lista os comandos usados para sair de uma operação.
+
+Ctrl-C = Quando em qualquer modo de configuração, finaliza o modo de configuração e retorna para o modo EXEC
+privilegiado. Quando no modo de instalação, aborta de volta ao comando pronto.
+_____________________________________________________________________________________________________
+Ctrl-Z = Quando em qualquer modo de configuração, finalização ou modo de configuração e retornos para o modo
+EXEC privilegiado
+_____________________________________________________________________________________________________
+Ctrl-Shift_6 = Sequencia de quebra para todas as finalidades usada para abortar pesquisas de DNS, tracerouts,
+pings, etc.

@@ -1,0 +1,12 @@
+O IOS tem duas formas de ajuda disponíveis: ajuda sensível ao contexto e verificação da sintaxe do comando.
+
+A ajuda contextual permite que você encontre rapidamente respostas para estas perguntas:
+
+Quais comandos estão disponíveis em cada modo de comando?
+Quais comandos começam com caracteres específicos ou grupo de caracteres?
+Quais argumentos e palavras-chave estão disponíveis para comandos específicos?
+Para acessar a ajuda sensível ao contexto, basta inserir um ponto de interrogação,?, na CLI.
+
+A verificação da sintaxe de comandos verifica se um comando válido foi inserido pelo usuário. Quando um comando é inserido, o interpretador de linha de 
+comando o avalia da esquerda para a direita. Se o interpretador entende o comando, a ação solicitada é executada, e a CLI volta para o prompt apropriado.
+No entanto, se o interpretador não puder entender o comando sendo inserido, ele fornecerá feedback descrevendo o que está errado com o comando.

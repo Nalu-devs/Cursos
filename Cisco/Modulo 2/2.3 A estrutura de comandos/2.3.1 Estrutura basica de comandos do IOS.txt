@@ -1,0 +1,20 @@
+Um administrador de rede deve conhecer a estrutura básica de comandos do IOS para poder
+usar a CLI para a configuração do dispositivo.
+
+Um dispositivo Cisco IOS é compativel com muitos comandos. Cada comando do IOS possui um formato
+ou sintaxe especifica e pode ser executado apenas no modo apropriado. A sintaxe geral de um comando,
+é o comando seguido por quaisquer palavras-chave e argumentos apropriados.
+
+Switch> = prompt
+show = comando
+espaço entre o comando e palavra-chave/argumento
+ip protocols = palavra-chave ou argumento
+
+Switch>ping 192.168.10.5
+
+PALAVRA-CHAVE: Este é o parametro especifico definido no sistema operacional
+
+ARGUMENTOS: Isso não é predefinido; é um valor ou variavel definido pelo usuario
+
+Apos inserir cada comando completo, incluindo palavras-chaves e argumentos, pressione a tecla entre
+para enviar o comando ao interprete de comando.
