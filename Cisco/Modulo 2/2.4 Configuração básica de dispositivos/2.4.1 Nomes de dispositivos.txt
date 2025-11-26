@@ -1,0 +1,21 @@
+O primeiro comando de configuração em qualquer dispositivo deve ser dar a ele um nome de dispositivo
+exclusivo ou nome de host. Por padrão, todos os dispositivos recebem um nome padrão de fábrica. Por
+exemplo, um switch Cisco IOS é "Switch".
+
+O problema é que, se todos os comutadores em uma rede forem deixados com seus nomes padrão, seria
+dificil identificar um dispositivo especifico. Por exemplo, como você saberia que esta conectado do
+dispositivo certo ao acessá-lo remotamente usando SSH? O nome do host fornece a confirmação de que
+você está conectado ao dispositivo correto.
+
+O nome padrão deve ser alterado para algo mais descritivo. Com uma escolha sábia de nomes, é mais
+facil lembrar, documentar e identificar dispositivos de rede. Aqui estão algumas diretrizes de
+nomenclatura importantes para hosts:
+
+1 - Começar com uma letra;
+2 - Não conter espaços;
+3 - Terminar com uma letra ou digito;
+4 - Usar somente letras, números e traços;
+5 - Ter menos de 64 caracteres.
+
+Uma organização deve escolher uma convenção de nomenclaturas que torne fácil e intuitivo identificar
+um dispositivo especifico. Os 
