@@ -18,4 +18,24 @@ nomenclatura importantes para hosts:
 5 - Ter menos de 64 caracteres.
 
 Uma organização deve escolher uma convenção de nomenclaturas que torne fácil e intuitivo identificar
-um dispositivo especifico. Os 
+um dispositivo especifico. Os nomes de host usados no IOS do dispositivo preservam os caracteres em
+maiusculas e minusculas. Por exemplo, tres computadores, abrangendo tres andares diferentes, estão
+interconectados em uma rede. A convenção de nomenclaturas usada incorporou o local e a finalidade 
+de cada dispositivo. A documentação de rede deve explicar como esses nomes foram escolhidos, de modo
+que outros dispositivos possam receber nomes apropriados.
+
+Quando a convenção de nomenclatura for identificada, a proxima etapa é usar a CLI para aplicar os
+nomes aos dispositivos. No modo EXEC privilegiado, acesse o modo de configuração global digitando o
+comando configure terminal.
+
+Switch# configure terminal
+Switch(config)# hostname Sw-Floor-1
+Sw-Floor-1(config)#
+
+No modo de configuração global, digite o comando hostname seguido pelo nome do computador e pressione
+Enter.
+
+OBS: Para retornar o switch ao prompt padrão, use o comando no hostname global config.
+
+Sempre verifique se a documentação está atualizada quando um dispositivo for adicionado ou modificado.
+identifique os dispositivos na documentação por seu local, proposito e endereço.
