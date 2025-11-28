@@ -1,0 +1,27 @@
+O uso de senhas fracas ou facilmente adivinhadas continua a ser a maior preocupação de
+segurança das organizações. Os dispositivos de rede, inclusive roteadores residenciais
+sem fio, sempre devem ter senhas configuradas para limitar o acesso administrativo.
+
+O Cisco IOS pode ser configurado para usar senhas do modo hierarquico para permitir 
+privilegios de acesso diferentes a um dispositivo de rede.
+
+Todos os dispositivos de rede devem limitar o acesso administrativo protegendo EXEC
+privilegiado, EXEC de usuario e acesso remoto Telnet com senhas. Além disso, todas as 
+senhas devem ser criptografadas e notitificações legais fornecidas.
+
+Ao escolher senhas, use senhas fortes que não sejam facilmente adivinhadas. Existem 
+alguns pontos-chaves a serem considerados ao escolher senhas:
+
+1 - Use senhas com mais de oito caracteres.
+2 - Use uma combinação de letras maiusculas e minusculas, numeros, caracteres especiais
+e/ou sequencias numericas.
+3 - Evite usar a mesma senha para todos os dispositivos
+4 - Não use palavras comuns porque elas são facilmente adivinhadas
+
+Use uma pesquisa na internet para encontrar um gerador de senhas. Muitos permitirão que
+você defina o comprimento, conjunto de caracteres e outros parametros.
+
+OBS: A maioria dos laboratorios deste curso usa senhas simples, como a maioria dos laboratorios
+deste curso usa senhas simples, como classe ou cisco. Essas senhas são consideradas fracas
+e facilmente adivinháveis e devem ser evitadas nos ambientes de produção. Usamos essas senhas
+apenas por conveniencia em uma sala de aula ou para ilustrar exemplos de configuração.
