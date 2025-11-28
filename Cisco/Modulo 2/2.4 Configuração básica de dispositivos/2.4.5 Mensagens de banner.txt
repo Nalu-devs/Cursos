@@ -1,0 +1,19 @@
+Embora a exigencia de senhas seja uma maneira de amnter pessoal não autorizado fora
+da rede, é vital fornecer um método para declarar que apenas pessoal autorizado deve
+tentar acessar o dispositivo. Para fazê-lo, adicione um banner à saída do dispositivo
+Banners podem ser uma parte importante do processo legal caso alguem seja processado
+por invadir um dispositivo. Alguns sistemas legais não permitem processo, ou mesmo o
+monitoramento de usuarios, a menos que haja uma notificação visivel.
+
+Para criar uma mensagem de faixa do dia em um dispositivo de rede, use o comando de
+configuração global banner motd # a mensagem do dia#. O "#" na sintaxe do comando é
+denominado caracter de delimitação. Ele é inserido antes e depois da mensagem. O caracter
+de delimitação pode ser qualquer caracter contato que ele não ocorra na mensagem. Por
+esse motivo, simbolos como "#" são usados com frequencia. Após a execução do comando,
+o banner será exibido em todas as tentativas seguintes de acessar o dispositivo ate o
+banner ser removido.
+
+O exemplo a seguir mostra as etapas para configurar o banner no Sw-Floor-1
+
+Sw-Floor-1# config terminal
+Sw-Floor-1(config)# banner motd #Authorized Acess Only#

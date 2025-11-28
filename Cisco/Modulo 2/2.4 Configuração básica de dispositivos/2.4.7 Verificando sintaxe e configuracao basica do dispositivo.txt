@@ -1,0 +1,33 @@
+1) atribuir um nome de dispositivo
+2) Acesso seguro ao modo EXEC do usuário
+3) Acesso seguro do modo EXEC privilegiado
+4) Acesso VTY seguro
+5) Criptografe todas as senhas em texto simples
+6) Exibir um banner de login
+
+- entrando no modo de configuração global
+Switch# configure terminal
+
+- nomear o switch "Sw-Floor-1"
+Switch(config)# hostname Sw-Floor-1
+
+- protegendo o acesso ao modo EXEC do usuario
+Sw-Floor-1(config)# line console 0
+Sw-Floor-1(config-line)# password cisco
+Sw-Floor-1(config-line)# login
+Sw-Floor-1(config-line)# exit
+
+- acessando o modo privilegiado EXEC
+Sw-Floor-1(config)# enable secret class
+
+- protegendo as linhas vty de 0 a 15
+Sw-Floor-1(config)# line vty 0 15
+Sw-Floor-1(config-line)# password cisco
+Sw-Floor-1(config-line)# login
+Sw-Floor-1(config-line)# exit
+
+- criptografando as senhas
+Sw-Floor-1(config)# service password-encryption
+
+- mensagem de banner
+Sw-Floor-1(config)# banner motd # Apenas acesso autorizado #
