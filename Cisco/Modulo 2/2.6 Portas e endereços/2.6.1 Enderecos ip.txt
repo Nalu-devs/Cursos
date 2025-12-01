@@ -1,0 +1,35 @@
+Parabéns, você executou uma configuração básica do dispositivo! Claro, a diversão ainda não acabou. Se você quiser que seus dispositivos 
+finais se comuniquem entre si, você deve garantir que cada um deles tenha um endereço IP apropriado e esteja conectado corretamente. Você 
+aprenderá sobre endereços IP, portas de dispositivo e a mídia usada para conectar dispositivos neste tópico.
+
+O uso de endereços IP é o principal meio de permitir que os dispositivos se localizem e estabeleçam comunicação ponto a ponto na Internet.
+Cada dispositivo final em uma rede deve ser configurado com um endereço IP. Exemplos de dispositivos finais incluem estes:
+
+Computadores (estações de trabalho, laptops, servidores de arquivo, servidores Web);
+
+Impressoras de rede;
+
+Telefones VoIP;
+
+Câmeras de segurança;
+
+Smartphones;
+
+Dispositivos móveis portáteis (como scanners de códigos de barras sem fio).
+
+A estrutura de um endereço IPv4 é chamada notação decimal com ponto e é representada por quatro números decimais entre 0 e 255. Os endereços
+IPv4 são atribuídos individualmente a dispositivos conectados a uma rede.
+
+Observação: O IP neste curso refere-se aos protocolos IPv4 e IPv6. O IPv6 é a versão mais recente do IP e está substituindo o IPv4 mais 
+comum.
+
+Com o endereço IPv4, uma máscara de sub-rede também é necessária. Uma máscara de sub-rede IPv4 é um valor de 32 bits que diferencia a parte
+da rede do endereço da parte do host. Juntamente com o endereço IPv4, a máscara de sub-rede determina a qual sub-rede o dispositivo é
+membro.
+
+O exemplo na figura exibe o endereço IPv4 (192.168.1.10), máscara de sub-rede (255.255.255.0) e gateway padrão (192.168.1.1) atribuído a um 
+host. O endereço de gateway padrão é o endereço IP do roteador que o host usará para acessar redes remotas, incluindo a Internet.
+
+Os endereços IPv6 têm 128 bits e são escritos como uma sequência de valores hexadecimais. A cada quatro bits é representado por um único 
+dígito hexadecimal; para um total de 32 valores hexadecimais. Grupos de quatro dígitos hexadecimais são separados por dois pontos (:). Os 
+endereços IPv6 não diferenciam maiúsculas e minúsculas e podem ser escritos tanto em minúsculas como em maiúsculas.

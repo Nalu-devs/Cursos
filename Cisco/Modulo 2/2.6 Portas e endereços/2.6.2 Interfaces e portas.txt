@@ -1,0 +1,30 @@
+As comunicações em rede dependem de interfaces do dispositivo de usuário final, interfaces do dispositivo de rede e cabos que as conectam. 
+Cada interface física tem especificações ou padrões que a definem. Um cabo conectado à interface deve ser projetado de acordo com os padrões
+físicos da interface. Os tipos de mídia de rede incluem cabos de cobre de par trançado, cabos de fibra óptica, cabos coaxiais ou sem fio,
+conforme mostrado na figura.
+
+Diferentes tipos de meio físico de rede oferecem características e benefícios diferentes. Nem todas as mídias de rede têm as mesmas 
+características. Nem todas as mídias são apropriadas para o mesmo propósito. Estas são algumas das diferenças entre os vários tipos de 
+mídia:
+
+A distância pela qual o meio físico consegue carregar um sinal com êxito;
+
+O ambiente no qual o meio físico deve ser instalado;
+
+A quantidade e a velocidade de dados nas quais eles devem ser transmitidos;
+
+O custo do meio físico e da instalação.
+
+Cada link na Internet não exige apenas um tipo de mídia de rede específico, mas também requer uma tecnologia de rede específica. Por 
+exemplo, Ethernet é a tecnologia de rede local (LAN) mais comum usada atualmente. As portas Ethernet são encontradas nos dispositivos de 
+usuário final, dispositivos de switch e outros dispositivos de rede que podem se conectar fisicamente à rede por meio de um cabo.
+
+Os switches Cisco IOS de Camada 2 têm portas físicas para se conectarem a dispositivos. Essas portas não são compatíveis com endereços IP da 
+Camada 3. Portanto, os switches têm uma ou mais interfaces virtuais de switch (SVIs). Essas interfaces virtuais existem porque não há 
+hardware físico no dispositivo associado. Uma SVI é criada em software.
+
+A interface virtual permite gerenciar remotamente um switch em uma rede usando IPv4 e IPv6. Todo switch tem uma SVI na configuração padrão
+pronta para uso A SVI padrão é a interface VLAN1.
+
+Observação: Um switch da camada 2 não precisa de um endereço IP. O endereço IP atribuído à SVI é usado para acesso remoto ao switch. Um 
+endereço IP não é necessário para o switch executar suas operações.
