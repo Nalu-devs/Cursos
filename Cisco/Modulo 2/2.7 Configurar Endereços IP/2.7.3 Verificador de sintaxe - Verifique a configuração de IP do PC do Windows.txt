@@ -1,0 +1,17 @@
+É possível exibir as definições de configuração de IP em um PC com Windows usando o comando ipconfig no prompt de comando. A saída mostrará as informações de endereço IPv4, máscara de sub-rede e gateway recebidas do servidor DHCP.
+
+Insira o comando para exibir a configuração IP em um PC com Windows.
+
+Insira o comando para exibir a configuração IP em um PC com Windows.
+
+C:\>ipconfig
+Windows IP Configuration  
+  
+Ethernet adapter Local Area Connection:  
+  
+Connection-specific DNS Suffix . : cisco.com  
+Link-local IPv6 Address . . . . . : fe80::b0ef:ca42:af2c:c6c7%16  
+IPv4 Address. . . . . . . . . . . : 192.168.1.10  
+Subnet Mask . . . . . . . . . . . : 255.255.255.0  
+Default Gateway . . . . . . . . . : 192.168.1.1
+Você exibiu com êxito a configuração IP em um PC com Windows.

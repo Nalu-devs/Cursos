@@ -1,0 +1,10 @@
+Assim como você precisa dos números de telefone dos seus amigos para enviar mensagens de texto ou ligar para eles, os dispositivos finais da sua rede precisam de um endereço IP para que eles possam se comunicar com outros dispositivos na sua rede. Neste tópico, você implementará a conectividade básica configurando o endereçamento IP em comutadores e PCs.
+
+As informações de endereço IPv4 podem ser inseridas nos dispositivos finais manualmente ou automaticamente usando o DHCP (Dynamic Host Configuration Protocol).
+
+Para configurar manualmente um endereço IPv4 em um host do Windows, abra o Control Panel > Network Sharing Center > Change adapter settings e escolha o adaptador. Em seguida, clique com o botão direito do mouse e selecione Properties para exibir o Local Area Connection Properties, como mostrado na figura.
+Destaque Internet Protocol versão 4 (TCP/IPv4) e clique Properties para abrir a Internet Protocol Version 4 (TCP/IPv4) Properties janela, mostrada na figura. Configure as informações de endereço IPv4 e máscara de sub-rede e o gateway padrão.
+
+As opções de endereçamento e configuração Observação: IPv6 são semelhantes ao IPv4.
+
+Observação: Os endereços do servidor DNS são os endereços IPv4 e IPv6 dos servidores DNS (Domain Name System), usados para converter endereços IP em nomes de domínio, como www.cisco.com.

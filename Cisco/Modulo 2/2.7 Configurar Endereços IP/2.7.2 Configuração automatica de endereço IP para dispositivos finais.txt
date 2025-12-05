@@ -1,0 +1,7 @@
+Os dispositivos finais geralmente usam o DHCP para configuração automática de endereço IPv4. O DHCP é a tecnologia usada em quase todas as redes. A melhor maneira de entender por que o DHCP é tão popular é analisando o trabalho extra que seria necessário sem ele.
+
+Em uma rede, o DHCP habilita a configuração automática de endereço IPv4 para todos os dispositivos finais habilitados para DHCP. Imagine quanto tempo levaria se, toda vez que você se conectasse à rede, tivesse que inserir manualmente o endereço IPv4, a máscara de sub-rede, o gateway padrão e o servidor DNS. Multiplique isso por cada usuário e cada dispositivo em uma organização e você entenderá o problema. A configuração manual também aumenta a possibilidade de erros ao duplicar o endereço IPv4 de outro dispositivo.
+
+Como mostrado na figura, para configurar DHCP em um PC Windows, você só precisa selecionar Obtain an IP address automatically e Obtain DNS server address automatically. Seu PC procurará um servidor DHCP e receberá as configurações de endereço necessárias para se comunicar pela rede.
+
+Observação: IPv6 usa DHCPv6 e SLAAC (Stateless Address Autoconfiguration) para alocação de endereços dinâmicos.

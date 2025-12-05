@@ -1,0 +1,11 @@
+Entre no modo de configuração de interface da VLAN 1.
+
+Switch(config)#interface vlan 1
+Configure o endereço IPv4 como 192.168.1.20 e a máscara de sub-rede como 255.255.255.0.
+
+Switch(config-if)#ip address 192.168.1.20 255.255.255.0
+Habilite a interface.
+
+Switch(config-if)#no shutdown
+%LINK-5-CHANGED: Interface Vlan1, changed state to up
+Você configurou com êxito a interface virtual do switch para a VLAN 1.
