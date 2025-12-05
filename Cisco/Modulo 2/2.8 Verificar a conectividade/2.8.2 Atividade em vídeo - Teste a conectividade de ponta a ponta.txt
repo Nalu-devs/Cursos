@@ -1,0 +1,7 @@
+O comando ping pode ser usado para testar a conectividade com outro dispositivo na rede ou em um site na Internet.
+
+Clique em Reproduzir na figura para visualizar uma demonstração em vídeo usando o comando ping para testar a conectividade a um comutador e a outro PC.
+
+Acompanhe no Packet Tracer
+
+Baixe o mesmo arquivo PKT usado no vídeo. Pratique usando o comando ping, como mostrado no vídeo.

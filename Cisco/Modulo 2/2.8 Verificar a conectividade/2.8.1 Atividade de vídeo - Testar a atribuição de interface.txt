@@ -1,0 +1,9 @@
+No tópico anterior, você implementou a conectividade básica configurando o endereçamento IP em comutadores e PCs. Então você verificou suas configurações e conectividade, porque, qual é o ponto de configurar um dispositivo se você não verificar se a configuração está funcionando? Você continuará esse processo neste tópico. Usando a CLI, você verificará as interfaces e os endereços dos switches e roteadores em sua rede.
+
+Da mesma forma que você usa comandos e utilitários para ipconfig verificar a configuração de rede de um host de PC, também usa comandos para verificar as interfaces e configurações de endereço de dispositivos intermediários, como comutadores e roteadores.
+
+Clique em Reproduzir na figura para visualizar uma demonstração em vídeo do comando show ip interface brief . Esse comando é útil para verificar a condição das interfaces de um switch.
+
+Acompanhe no Packet Tracer
+
+Baixe o mesmo arquivo PKT usado no vídeo. Pratique usando os comandos ipconfig show ip interface brief e, como mostrado no vídeo.
