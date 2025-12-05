@@ -1,0 +1,17 @@
+Todos os dispositivos finais e de rede exigem um sistema operacional (SO). O usuário pode interagir com o shell usando uma interface de linha de comando (CLI) para usar um teclado para executar programas de rede baseados em CLI, usar um teclado para inserir comandos baseados em texto e exibir a saída em um monitor.
+
+Como um recurso de segurança, o Cisco IOS Software separa o acesso ao gerenciamento nos dois modos de comando a seguir: Modo EXEC de Usuário e Modo EXEC Privilegiado.
+
+Esse modo é acessado antes de outros modos de configuração específicos. No modo global de configuração, o usuário pode inserir diferentes modos de subconfiguração. Cada um desses modos permite a configuração de uma parte particular ou função do dispositivo IOS. Dois modos comuns de subconfiguração incluem: Modo de configuração de linha e Modo de configuração de interface. Para entrar a ser no modo de configuração global, use o comando configure terminal privilegiado do modo EXEC. Para retornar ao modo EXEC privilegiado, digite o comando exit global config mode.
+
+Cada comando do IOS tem uma sintaxe ou formato específico e só pode ser executado no modo apropriado. A sintaxe geral para um comando é o comando seguido por quaisquer palavras-chave e argumentos adequados. O IOS tem duas formas de ajuda disponíveis: ajuda sensível ao contexto e verificação da sintaxe do comando.
+
+O primeiro comando de configuração em qualquer dispositivo deve ser dar a ele um nome de dispositivo exclusivo ou um nome de host. Os dispositivos de rede sempre devem ter senhas configuradas para limitar o acesso administrativo. O Cisco IOS pode ser configurado para usar uma senha do modo hierárquico para permitir privilégios de acesso diferentes para usuários de dispositivos de rede. Configure e criptografe todas as senhas. Forneça um método para declarar que apenas pessoal autorizado deve tentar acesso ao dispositivo adicionando um banner à saudação do dispositivo.
+
+Existem dois arquivos de sistema que armazenam a configuração do dispositivo: startup-config e running-config. Os arquivos de configuração em execução podem ser alterados se não tiverem sido salvos. Os arquivos de configuração também podem ser salvos e armazenados em um documento de texto.
+
+Os endereços IP permitem que os dispositivos se localizem e estabeleçam comunicação ponta a ponta na Internet. Cada dispositivo final em uma rede deve ser configurado com um endereço IP. A estrutura de um endereço IPv4 é chamada notação decimal com ponto e é representada por quatro números decimais de 0 a 255.
+
+As informações de endereço IPv4 podem ser inseridas nos dispositivos finais ou automaticamente usando o DHCP (Dynamic Host Configuration Protocol). Em uma rede, o DHCP habilitou a configuração automática de endereço IPv4 para todos os dispositivos que estão habilitados para DHCP. Para acessar um switch remotamente, o endereço IP e uma máscara de sub-rede devem ser configurados na SVI. Para configurar um SVI em um switch, use o comando interface vlan 1 global config mode. A interface Vlan 1 não é a interface física, mas virtual.
+
+As ferramentas de comando usam comandos e utilitários para verificar a configuração de rede em um host de PC, também usam comandos para verificar as alterações e configurações de rede de dispositivos intermediários (incluindo comutadores e roteadores). O comando show ip interface brief exibe o endereço IP e a condição das interfaces do switch. O comando ping deve ser usado para testar a conectividade com outro dispositivo na rede IP.
