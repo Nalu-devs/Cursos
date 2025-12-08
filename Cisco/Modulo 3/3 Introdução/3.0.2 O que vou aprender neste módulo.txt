@@ -1,0 +1,11 @@
+Título do módulo: Protocolos e modelos
+
+Objetivo do módulo: Explicar como os protocolos de rede permitem que dispositivos acessem recursos de rede locais e remotos
+
+As regras: Descrever os tipos de regras necessárias para exito comunicar
+Protocolos: Explicar a necessidade dos protocolos na comunicação de rede
+Conjuntos de protocolos: Explicar a finalidade da adesão a um conjunto de protocolos
+Empresas de padrões: Explicar o papel das organizações de padrões no estabelecimento de protocolos para interoperabilidade de rede
+Modelos de referencia: Explique como o modelo TCP / IP e o modelo OSI são usados para facilitar protocolos para interoperabilidade de rede
+Encapsulamento de dados: Explicar como o encapsulamento permite que os dados sejam transportados pela rede remota
+Acesso a dados: Explicar como os hosts locais acessam recursos locais em uma rede

@@ -1,0 +1,3 @@
+Bem-vindo aos protocolos e modelos!
+
+Você conhece os componentes básicos de uma rede simples, bem como a configuração inicial. Mas depois de configurar e conectar esses componentes, como você sabe que eles funcionarão juntos? Protocolos! Protocolos são conjuntos de regras acordadas que foram criadas por organizações de padrões. Mas, como você não pode pegar uma regra e olhar atentamente para ela, como você realmente entende por que existe tal regra e o que ela deve fazer? Modelos! Os modelos dão a você uma maneira de visualizar as regras e seu lugar em sua rede. Este módulo fornece uma visão geral dos protocolos e modelos de rede. Você está prestes a ter uma compreensão muito mais profunda de como as redes realmente funcionam!

@@ -1,0 +1,7 @@
+Você acabou de comprar um automóvel novo para uso pessoal. Depois de conduzir o carro por cerca de uma semana, você descobre que não está funcionando corretamente. Ao discutir o problema com vários colegas, você decide ir a uma oficina mecânica muito recomendada por eles. É a única oficina localizada nas proximidades.
+
+Ao chegar na oficina, você descobre que todos os mecânicos falam outra língua. Você tem dificuldade para explicar os problemas de desempenho do automóvel, mas os reparos realmente precisam ser feitos. Você não tem certeza de que pode conduzi-lo de volta para casa para pesquisar outras opções.
+
+Você deve encontrar uma maneira de trabalhar com a oficina para assegurar que o automóvel seja consertado corretamente.
+
+Como você se comunicará com os mecânicos? Projete um modelo de comunicações para garantir que o carro seja reparado corretamente.
