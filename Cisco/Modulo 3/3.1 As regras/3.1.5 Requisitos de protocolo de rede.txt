@@ -1,0 +1,13 @@
+Os protocolos usados nas comunicações de rede compartilham muitas dessas características fundamentais. Além de identificar a origem e o destino, os protocolos de computadores e de redes definem os detalhes sobre como uma mensagem é transmitida por uma rede.
+
+Protocolos de computador comuns incluem os seguintes requisitos:
+
+Codificação de mensagens;
+
+Formatação e encapsulamento de mensagens;
+
+Tamanho da mensagem;
+
+Tempo da mensagem;
+
+Opções de envio de mensagem.

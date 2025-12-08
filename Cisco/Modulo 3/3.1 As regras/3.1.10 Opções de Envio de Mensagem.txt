@@ -1,0 +1,19 @@
+Uma mensagem pode ser entregue de diferentes maneiras.
+
+Clique em cada botão para obter uma analogia e um exemplo de rede das opções de entrega de mensagens.
+
+Analogia
+Às vezes, uma pessoa deseja transmitir informações a uma única pessoa. Em outros casos, a pessoa pode precisar enviar informações a um grupo de uma só vez, ou até mesmo para todas as pessoas na mesma área.
+
+Clique nos botões unicast, multicast e broadcast na figura para obter um exemplo de cada um.
+
+Rede
+As comunicações em rede têm opções de entrega semelhantes para se comunicar. Como mostrado na figura, existem três tipos de comunicações de dados incluem:
+
+Unicast - As informações estão sendo transmitidas para um único dispositivo final.
+
+Multicast - Informações estão sendo transmitidas para um um ou mais dispositivos finais.
+
+Broadcast - Informações estão sendo transmitidas para todos os dispositivos finais.
+
+Clique nos botões unicast, multicast e broadcast na figura para obter um exemplo de cada um.

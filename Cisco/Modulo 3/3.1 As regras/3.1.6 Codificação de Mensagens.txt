@@ -1,0 +1,13 @@
+Uma das primeiras etapas para enviar uma mensagem é codificá-la. A codificação é o processo de conversão de informações em outra forma aceitável para a transmissão. A decodificação reverte esse processo para interpretar as informações.
+
+Clique em cada botão para obter uma analogia e um exemplo de rede de codificação de mensagens.
+
+Analogia
+Imagine que uma pessoa ligue para um amigo para discutir os detalhes de um belo pôr do sol. Clique em Reproduzir na figura para visualizar uma animação da codificação de mensagens.
+
+Para comunicar a mensagem, ela converte seus pensamentos em um idioma predefinido. Então, ela fala no telefone usando os sons e as inflexões do idioma falado que expressam a mensagem. O amigo dela escuta a descrição e decodifica os sons para entender a mensagem que recebeu.
+
+Rede
+Clique em Reproduzir na figura para exibir uma animação da codificação de mensagens também ocorre na comunicação do computador.
+
+A codificação entre hosts deve estar em um formato adequado para o meio físico. As mensagens enviadas pela rede são convertidas primeiramente em bits pelo host emissor. Cada bit é codificado em um padrão de tensões em fios de cobre, luz infravermelha em fibras ópticas ou microondas para sistemas sem fio. O host de destino recebe e decodifica os sinais para interpretar a mensagem.

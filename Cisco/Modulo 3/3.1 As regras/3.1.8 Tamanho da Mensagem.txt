@@ -1,0 +1,13 @@
+Outra regra de comunicação é o tamanho da mensagem.
+
+Clique em cada botão para obter uma analogia e um exemplo de rede do tamanho da mensagem.
+
+Analogia
+Clique em Reproduzir na figura para exibir uma animação do tamanho da mensagem em comunicações face a face.
+
+Quando as pessoas se comunicam entre si, as mensagens que enviam geralmente são quebradas em partes ou sentenças menores. Essas sentenças são limitadas em tamanho ao que a pessoa receptora pode processar de uma só vez, conforme mostrado na figura. Também torna mais fácil para o receptor ler e compreender.
+
+Rede
+Do mesmo modo, quando uma mensagem longa é enviada de um host a outro em uma rede, é necessário dividir a mensagem em partes menores, como mostra a Figura 2. As regras que regem o tamanho das partes, ou quadros, transmitidos pela rede são muito rígidas. Também podem diferir, dependendo do canal usado. Os quadros que são muito longos ou muito curtos não são entregues.
+
+As restrições de tamanho dos quadros exigem que o host origem divida uma mensagem longa em pedaços individuais que atendam aos requisitos de tamanho mínimo e máximo. A mensagem longa será enviada em quadros separados, e cada um contém uma parte da mensagem original. Cada quadro também terá suas próprias informações de endereço. No host destino, as partes individuais da mensagem são reconstruídas na mensagem original.

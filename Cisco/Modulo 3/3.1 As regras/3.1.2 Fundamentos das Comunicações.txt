@@ -1,0 +1,9 @@
+As redes variam em tamanho, forma e função. Elas podem ser tão complexas quanto os dispositivos conectados pela Internet ou tão simples quanto dois computadores conectados diretamente um ao outro com um único cabo e qualquer outra coisa. No entanto, apenas ter a conexão física com ou sem fio entre os dispositivos finais não é suficiente para permitir a comunicação. Para que ocorra comunicação, os dispositivos devem saber "como" se comunicar.
+
+As pessoas trocam ideias usando vários métodos de comunicação diferentes. No entanto, todos os métodos de comunicação têm os seguintes três elementos em comum:
+
+Fonte da Mensagem (remetente) - As fontes da mensagem são pessoas ou dispositivos eletrônicos que precisam enviar uma mensagem para outras pessoas ou dispositivos.
+
+Destino da mensagem (destinatário) - O destino recebe a mensagem e a interpreta.
+
+Canal - Consiste na mídia que fornece o caminho pelo qual a mensagem viaja da origem ao destino.

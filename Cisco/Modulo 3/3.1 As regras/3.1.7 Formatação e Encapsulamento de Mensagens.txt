@@ -1,0 +1,17 @@
+Quando uma mensagem é enviada da origem para o destino, deve usar um formato ou uma estrutura específica. Os formatos da mensagem dependem do tipo de mensagem e do canal usado para entregá-la.
+
+Clique em cada botão para obter uma analogia e um exemplo de rede de formatação e encapsulamento de mensagens.
+
+Analogia
+Um exemplo comum de exigir o formato correto nas comunicações humanas é ao enviar uma carta. Clique em Reproduzir na figura para exibir uma animação de formatação e encapsulamento de uma letra.
+
+Um envelope tem o endereço do remetente e do destinatário, cada um localizado no local apropriado no envelope. Se o endereço destino e a formatação não estiverem corretos, a carta não será entregue.
+
+O processo de colocar um formato de mensagem (a carta) em outro formato de mensagem (o envelope) é chamado encapsulamento. O desencapsulamento ocorre quando o processo é invertido pelo destinatário e a carta é retirada do envelope.
+
+Rede
+Semelhante ao envio de uma carta, uma mensagem enviada por uma rede de computadores segue regras específicas de formato para que ela seja entregue e processada.
+
+Internet Protocol (IP) é um protocolo com uma função semelhante ao exemplo de envelope. Na figura, os campos do pacote IPv6 (Internet Protocol versão 6) identificam a origem do pacote e seu destino. IP é responsável por enviar uma mensagem da origem da mensagem para o destino através de uma ou mais redes.
+
+Nota: Os campos do pacote IPv6 são discutidos em detalhes em outro módulo.

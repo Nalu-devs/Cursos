@@ -1,0 +1,1 @@
+Documentos e topologias de rede geralmente representam dispositivos de rede e finais usando um ícone de nó. Os nós são tipicamente representados como um círculo. A figura mostra uma comparação das três opções de entrega diferentes usando ícones de nó em vez de ícones de computador.

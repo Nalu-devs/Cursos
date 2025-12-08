@@ -1,0 +1,15 @@
+O envio de uma mensagem, seja por comunicação presencial ou por rede, é regido por regras chamadas protocolos. Esses protocolos são específicos ao tipo de método de comunicação que está sendo usado. Em nossa comunicação pessoal do dia-a-dia, as regras que usamos para nos comunicar em uma mídia, como uma ligação telefônica, não são necessariamente as mesmas que as regras para o uso de outra mídia, como o envio de uma carta.
+
+O processo de envio de uma carta é semelhante à comunicação que ocorre em redes de computadores.
+
+Analogia
+Clique em Reproduzir na figura para ver uma animação de duas pessoas que se comunicam face a face.
+
+Antes da comunicação, devem concordar sobre como se comunicar. Se a comunicação for através de voz, devem primeiro acordar o idioma. Em seguida, quando há uma mensagem para compartilhar, eles devem formatar a mensagem de forma que seja compreensível.
+
+Se alguém usa o idioma inglês, mas a estrutura das frases é ruim, a mensagem pode ser facilmente mal interpretada. Cada uma dessas tarefas descreve protocolos usados para realizar a comunicação.
+
+Rede
+Clique em Reproduzir na figura para visualizar uma animação de dois dispositivos se comunicando.
+
+Como mostrado na animação, isso também é verdade para a comunicação de computador. Muitas regras ou protocolos diferentes regem todos os métodos de comunicação que existem no mundo hoje.

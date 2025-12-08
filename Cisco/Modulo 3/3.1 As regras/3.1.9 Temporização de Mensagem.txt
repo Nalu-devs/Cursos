@@ -1,0 +1,7 @@
+O tempo de mensagens também é muito importante nas comunicações de rede. A temporização da mensagem inclui o seguinte:
+
+Controle de Fluxo - Este é o processo de gerenciamento da taxa de transmissão de dados. O controle de fluxo define quanta informação pode ser enviada e a velocidade com que pode ser entregue. Por exemplo, se uma pessoa fala muito rapidamente, pode ser difícil para o receptor ouvir e entender a mensagem. Na comunicação de rede, existem protocolos de rede usados pelos dispositivos de origem e destino para negociar e gerenciar o fluxo de informações.
+
+Tempo limite da resposta - Se uma pessoa fizer uma pergunta e não ouvir uma resposta dentro de um período de tempo aceitável, ela assume que nenhuma resposta está chegando e reage de acordo. A pessoa pode repetir a pergunta ou prosseguir com a conversa. Os hosts da rede usam protocolos de rede que especificam quanto tempo esperar pelas respostas e que ação executar se ocorrer um tempo limite de resposta.
+
+Método de Acesso - Determinar quando alguém pode enviar uma mensagem. Clique em Reproduzir na figura para ver uma animação de duas pessoas conversando ao mesmo tempo e, em seguida, ocorre uma "colisão de informações", e é necessário que as duas se afastem e iniciem novamente. Da mesma forma, quando um dispositivo deseja transmitir em uma LAN sem fio, é necessário que a placa de interface de rede (NIC) da WLAN determine se a mídia sem fio está disponível.

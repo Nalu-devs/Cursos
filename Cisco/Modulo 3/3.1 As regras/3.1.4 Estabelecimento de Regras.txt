@@ -1,0 +1,19 @@
+Antes de se comunicar um com o outro, os indivíduos devem usar regras ou acordos estabelecidos para direcionar a conversa.
+
+Considere esta mensagem, por exemplo:
+
+humans communication between govern rules. It is verydifficult tounderstand messages that are not correctly f
+
+Observe como é difícil ler a mensagem porque ela não está formatada corretamente. Ele deve ser escrito usando regras (ou seja, protocolos) que são necessárias para uma comunicação eficaz. O exemplo mostra a mensagem que agora está formatada corretamente para linguagem e gramática.
+
+Rules govern communication between humans. It is very difficult to understand messages that are not correctly
+
+Os protocolos devem ter em conta os seguintes requisitos para entregar com êxito uma mensagem compreendida pelo receptor:
+
+Um emissor e um receptor identificados;
+
+Língua e gramática comum;
+
+Velocidade e ritmo de transmissão;
+
+Requisitos de confirmação ou recepção.
