@@ -1,0 +1,24 @@
+Voce sabe que para que os dispositivos finais possam se comunicar atraves de uma rede,
+cada dispositivo deve cumprir o mesmo conjunto de regras. Essas regras são chamadas de
+protocolos e eles tem muitas funções em uma rede.
+
+Os protocolos de rede definem um formato comum e um conjunto de regras para a troca de mensagens
+entre dispositivos. Os protocolos são implementados por dispositivos finais e dispositivos
+intermediarios em software, hardware ou ambos. Cada protocolo de rede tem sua propria função, formato
+e regras para comunicação.
+
+Protocolo de comunicação em rede: Os protocolos permitem que dois ou mais dispositivos se comuniquem
+atraves de um ou mais redes. A familia de tecnologias Ethernet envolve uma variedade de protocolos
+como IP, Transmission Control Protocol (TCP), hyperText protocolo de trasferencia (HTTP) e muito mais
+
+Protocolos de segurança de rede: Protocolos protegem os dados para fornecer autenticação, integridade
+dos dados e criptografia de dados. Exemplos de protocolos seguros incluem o Secure Shell (SSH), SSL e TLS
+
+Protocolo de roteamento: Protocolos permitem que os roteadores troquem informações de rota, compare
+caminho e, em seguida, selecione o melhor caminho para o destino remota. Exemplos de protocolos de
+roteamento incluem Open Shortest Path First (OSPF) e BOrder Gateway Protocol (BGP)
+
+Protocolos de descoberta de serviço: Protocolos são usados para a detecção automatica de dispositivos ou
+serviços. Exemplos de protocolos de detecção de serviços incluem Host dinamico protocolo de configuração
+(DHCP) que detecta serviços para endereço IP açpcação e sistema de nomes de dominio (DNS) que é usado
+para executar conversão de nome de endereço IP.
