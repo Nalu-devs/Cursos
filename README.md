@@ -1,11 +1,73 @@
-# Cursos realizados por Ana Lúcia
+# Cursos Realizados por Ana Lúcia
 
-### Objetivo
-  - Evidenciar meus cursos realizados durante minha vida
-  - Demonstrar interesse em sempre aprender
-  - Deixar livre para explorarem sobre cursos gratuitos (alguns pagos) que você também pode fazer
+[![Status](https://img.shields.io/badge/Status-Ativo-brightgreen)]()
+[![Atualização](https://img.shields.io/badge/Atualização-Contínua-blue)]()
+[![Organização](https://img.shields.io/badge/Organização-Modular-lightgrey)]()
+[![Tipo](https://img.shields.io/badge/Repositório-Educacional-purple)]()
 
-### Divisão
+Este repositório reúne minha trajetória de aprendizado ao longo dos anos. Aqui estão organizados todos os cursos que realizei em diferentes áreas, demonstrando meu comprometimento com aprendizado contínuo. Ele também serve como referência para quem deseja explorar cursos gratuitos ou pagos que podem agregar conhecimento.
 
-  - Esse repositório está dividido em diversas pastas e subpastas temos inicialmente dividindo pastas por area de conhecimento, depois dentro de cada area o tipo de curso e os cursos divididos por modulos
+---
 
+## Objetivos
+
+- Documentar e organizar todos os cursos que fiz e faço ao longo da vida.
+- Demonstrar meu interesse constante em aprendizado e autodesenvolvimento.
+- Compartilhar referências de cursos e plataformas úteis.
+- Criar um histórico estruturado da minha formação acadêmica e profissional.
+
+---
+
+## Estrutura do Repositório
+
+Este repositório segue uma organização padronizada para facilitar a navegação.
+
+### 1. Áreas de Conhecimento
+
+As pastas principais estão divididas por áreas maiores, como:
+
+- Banco de dados
+- Desenvolvimento Web
+- Desenvolvimento Pessoal
+- Design
+- Idiomas
+- Segurança de redes
+- etc
+
+### 2. Tipos de Cursos
+
+Dentro de cada área, os cursos são categorizados conforme o formato:
+
+- Cursos livres
+- Workshops
+- Trilhas completas
+- Treinamentos profissionais
+
+### 3. Organização Interna
+
+Cada curso contém:
+
+- Descrição
+- Conteúdo programático
+- Módulos divididos em subpastas
+- Materiais complementares (quando disponíveis)
+- Links das plataformas onde foram realizados
+
+---
+
+## Como Navegar
+
+1. Selecione uma área de conhecimento.
+2. Escolha o tipo de curso que deseja visualizar.
+3. Abra o curso e seus módulos.
+4. Utilize links e materiais para saber mais ou repetir o estudo.
+
+---
+
+## Atualizações
+
+Este repositório é atualizado periodicamente com:
+
+- Novos cursos realizados
+- Novas certificações
+- Reorganização estrutural quando necessário
