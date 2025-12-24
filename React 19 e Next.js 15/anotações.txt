@@ -1,1 +1,3 @@
 Aqui eu irei anotar coisas que achar relevante durante o decorrer do curso.
+
+Single page aplication = apenas uma pagina para navegador, javascript só troca as "abas". Não altera a página em si, só troca os componentes que aparecem na tela 
