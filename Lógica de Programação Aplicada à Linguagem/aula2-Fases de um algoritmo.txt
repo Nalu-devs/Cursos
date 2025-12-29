@@ -1,0 +1,21 @@
+Variaveis - itens que precisamos para montar nosso algoritmo. Sempre começa com letra, nomes compostos unidos por _ ou -, sem acento, facil de identificar e sempre letra minuscula
+
+Variaveis:
+    inteiro: num1
+    real: num2
+    string: nome
+    booleanos: x (verdadeiro ou falso)
+    real: media
+Inicio:
+    Escreval("Digite um numero")
+    Leia(num1)
+    Escreval("Digite outro numero")
+    Leia(num2)
+    media <-(num1+num2)/2
+    Escreval(media)
+
+
+Algortimos seguem a seguintes fases:
+Entrada
+Processamento
+Saida

@@ -1,0 +1,17 @@
+Logica - determinar como algo será feito em um certo passo a passo
+
+Existem 3 formas de apresentação:
+
+Descrição narrativa:
+Exemplo descrever passo a passo como se faz um bolo
+
+Pseudocodigo:
+Literalmente codar aquilo que estava descrito
+int num1, num2, media
+num1 = 10
+num2 = 5
+media = (num1+num2)/2
+print(media)
+
+Fluxograma:
+Representar o codigo por imagens graficas
