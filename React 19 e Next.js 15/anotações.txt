@@ -1,3 +1,20 @@
 Aqui eu irei anotar coisas que achar relevante durante o decorrer do curso.
 
-Single page aplication = apenas uma pagina para navegador, javascript só troca as "abas". Não altera a página em si, só troca os componentes que aparecem na tela 
+Single page aplication = apenas uma pagina para navegador, javascript só troca as "abas". Não altera a página em si, só troca os componentes que aparecem na tela
+
+o tsx não retorna mais de um elemento, ele precisa estar com um elemento pai, por exemplo a div, porem pode ser <></> vazio
+    O useStates serve para criar uma função que quando for alterada e os campos tiverem essa função todos eles mudem, isso evita que o programa tenha um efeito colateral
+
+    Sempre que usa useState não usamos o sinal de atribuição "="
+    Basicamente o js pega o numero e altera ele confugurando o mesmo
+    Regra de nomeação, set como primeira palavra e o nome da variavel em seguida, ex: setNumero
+    const [numero, setNumero] = useState(0);
+
+    function alteraNumero(){
+        //Sempre que eu dependo do estado anterior da variavel, por exemplo numero 0, o anterior mais um é igual a 1 e etc, usamos uma iron function com o prevStat
+        setNumero((prevStat) => prevStat + 1);
+    }
+
+    
+// export default App; dessa forma o nome do import no main pode ser qualquer um por isso é melhor a outra opção abaixo:
+// export {App}; usuariamos assim para sites basicos com somente um export, porem é mais facil exportar logo a function
