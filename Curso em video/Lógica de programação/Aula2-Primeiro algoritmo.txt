@@ -1,0 +1,54 @@
+Algoritmos computacionais
+
+São passos a serem seguidos por um módulo processador e seus respectivos usuários que, quando executados na ordem correta, conseguem realizar determinada tarefa
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Como começar?
+
+- Lógica de programação
+- Linguagem de programação
+- Sistema completo
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Lógica de programação
+
+- Fluxograma
+- Nassi shneiderman
+- Portugol
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Exemplo de código Portugol:
+
+algoritmo primeiro
+var
+    msg: caracter
+
+inicio
+
+    msg <- "ola mundo!"
+    Escreval(msg)
+
+fimalgoritmo
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Nomes de váriaveis: Os nomes devem ser dados seguindo algumas regras
+
+1 - Deve começar com uma letra
+2 - Os proximos podem ser letras ou numeros
+3 - Não pode usar nenhum simbolo
+4 - Não pode conter espaços em branco
+5 - Não pode ter acento
+6 - Não pode ter palavra reservada
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Tipos de váriaveis:
+
+Inteiro: ex -> 1, 3, -5
+Real: ex -> 0.5, 5.0, -77.3
+Caracter: ex -> 'Nalu', 'Matheus', 'Júlia'
+Lógico: ex -> True or False
