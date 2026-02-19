@@ -1,0 +1,52 @@
+Exemplos de algoritmo:
+
+Algoritmo "MeuNome"
+Var
+    nome: caracter
+
+Inicio
+
+    Escreva('Digite seu nome: ')
+    Leia(nome)
+    Escreva('Muito prazer ', nome)
+
+FimAlgoritmo
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Algoritmo "soma"
+Var
+    num1: real
+    num2: real
+    soma: real
+
+Inicio
+    Escreva('Digite o primeiro numero: ')
+    Leia(num1)
+    Escreva('Digite o segundo numero: ')
+    Leia(num2)
+    soma <- num1+num2
+    Escreva('A soma de ', num1, '+', num2, ' é igual a: ', soma)
+
+FimAlgoritmo
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Operadores Aritmeticos
+
++ -> Adição
+- -> Subtração
+* -> Multiplicação
+/ -> Divisão
+\ -> Divisão inteira
+^ -> Exponenciação
+% -> Módulo
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Ordem de precedência
+
+1 - ()
+2 - ^
+3 - * ou /
+4 - + ou -
