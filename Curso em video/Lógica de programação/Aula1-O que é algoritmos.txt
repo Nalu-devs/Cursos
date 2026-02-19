@@ -1,0 +1,13 @@
+Algortimos são os passos a passos de como excutar algo
+
+Algortimo AtravessarRua
+    Olhar para a direita
+    Olhar para a esquerda
+    Se estiver vindo carro
+        Não atravesse
+    Senão
+        atravesse
+    Fim-Se
+Fim-Algortimo
+
+Porém não pode ser de qualquer ordem os algortimos
