@@ -1,0 +1,13 @@
+O que é linguagem de banco de dados??
+-> É uma linguagem para manipular estrutura de dados
+
+SQL = Strutured Query language(Linguagem de consulta estruturada)
+-> Códigos que manipulam o banco
+
+Baixar o mysql
+1. Baixar o xampp
+2. Baixar HeidiSql/Phpmyadin/workbanck escolhe 1
+
+Funções básicas:
+
+Create database NomeDoBanco; -> Serve para criar o banco de dados
