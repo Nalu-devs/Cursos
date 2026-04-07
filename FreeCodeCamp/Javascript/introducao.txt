@@ -1,0 +1,32 @@
+O JS permite funcionalidades complexas, como manipular entrada do usuário, animar elementos e até construir aplicações web completas
+Ele dita como uma página pode se portar
+
+Um tipo de dado em js é um valor que você armazena em uma variável, e uma variável é um contêiner nomeado que armazena um valor
+EX:
+x = 2
+y = 4
+
+x + y
+
+O JS tem vários tipos de dados, alguns deles são:
+
+-> Number = representa tanto valores inteiros quanto ponto flutuante
+-> String = sequência de caracteres ou texto, delimitada por aspas
+-> Boolean = representa verdadeiro ou falso (True or False)
+-> underfined = significa que a variável foi declarada mais ainda não tem valor
+-> null = significa que a variável foi intencionalmente definida como "nada"
+-> Object = coleção de pares chave-valor
+-> BigInt = usado para números muito grandes que excedem o limite de Number
+
+As variáveis são como recipientes para armazenar valores
+Existem diversas maneiras de declarar variáveis, uma delas é o "let"
+EX:
+let age;
+
+Nesse momento age não tem valor atribuído então ela irá retornar underfined. Para atribuir um valor usamos o "="
+EX:
+let age = 25;
+
+O operador de atribuição é o mesmo que usamos em igualdade, porém ele não compara duas variáveis.
+
+As variáveis em JS podem começar com uma letra, com um underscore (_) ou com um cifrão, e NÃO pode começar com números
