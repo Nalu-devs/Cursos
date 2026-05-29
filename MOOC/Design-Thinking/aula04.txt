@@ -1,0 +1,6 @@
+IDEAÇÃO
+Após ler as definições de Ideação, vamos ver como ela funciona em DT.
+Compreendemos que Ideação é uma reunião de experiências diversificadas para geração de ideias, cocriação, criatividade e 
+indicação de soluções para os problemas levantados.
+Neste momento, já devemos ter claros quais são os propósitos e o problema o qual pretendemos resolver, aliás, a “dor” que 
+queremos diminuir ou curar de nossa persona.

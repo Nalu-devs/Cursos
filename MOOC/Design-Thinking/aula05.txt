@@ -1,0 +1,8 @@
+Já compreendemos: Imersão, Análise e Síntese e Ideação. Partamos, agora, para a Prototipação ou Prototipagem. Certamente, já ouviu falar 
+em protótipo, não é?
+Após ler as definições de Protipagem e observar alguns protótipos de casa, vamos ver como ela funciona em DT.
+
+A bem da verdade, protótipos de casas são bastante utilizados. Entretanto, como chamamos a atenção para este exemplo, é preciso deixar 
+claro que as maquetes são versões idênticas em escala bem menor daquilo que se vai construir. Você já prototipou algum produto ou serviço?
+
+Antes de continuar, uma pergunta importante é: por que se deve prototipar?
