@@ -1,0 +1,3 @@
+HTML, que significa Linguagem de Marcação de Hipertexto, é uma linguagem de marcação para criar páginas web. Quando você visita um site e vê conteúdo como parágrafos, títulos, links, imagens e vídeos; isso é HTML
+
+HTML representa o conteúdo e a estrutura de uma página da web por meio do uso de elementos. A maioria dos elementos terá uma tag de abertura e uma tag de fechamento. Às vezes essas tags são chamadas de tags de início e fim. Entre essas duas tags, você terá o conteúdo. Este conteúdo pode ser texto ou outros elementos HTML.
