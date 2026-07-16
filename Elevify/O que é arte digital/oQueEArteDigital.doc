@@ -26,3 +26,17 @@ Terminologia-Chave do setor
 com textura; Formatos de arquivos: PSD, PNG, JPEG, TIFF.
 2. Vetor -> Composto por curvas e caminhos matemáticos; Independentes de resolução: escala sem perder qualidade; Ideal para logotipos, icones, tipografia e
 Ilustração plana; Formatos de arquivos: AI, SVG, EPS.
+
+
+A resolução é medida em pontos por polegadas, a resolução padrão é 300 DPI
+
+
+Termos:
+Camadas -> Telas empilhadas independentes. Consegue editar uma sem atrapalhar a outra
+Modos de mesclagem -> Controlam como uma camada interage com as camadas abaixo
+Modos de cor -> RGB para telas, CMYK para gravura
+Tela -> Área de trabalho
+Opacidade -> Controla a transparencia
+Motor do pincel -> Torna a caneta responsiva e natural
+Exportar e salvar -> Coisas diferentes
+Edição não destrutiva -> Trabalhar de modo que voce possa sempre mudar sem se preocupar
